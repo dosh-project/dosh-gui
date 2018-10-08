@@ -23,7 +23,7 @@ set(CMAKE_C_COMPILER_ID "GNU")
 
 # Preprocessor definitions for this target.
 set(CMAKE_TARGET_DEFINITIONS_C
-  "GIT_REVISION=\"e036af1\""
+  "GIT_REVISION=\"353585b\""
   "MINIUPNPC_SET_SOCKET_TIMEOUT"
   "_BSD_SOURCE"
   "_POSIX_C_SOURCE=1"
@@ -56,7 +56,7 @@ set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # Preprocessor definitions for this target.
 set(CMAKE_TARGET_DEFINITIONS_CXX
-  "GIT_REVISION=\"e036af1\""
+  "GIT_REVISION=\"353585b\""
   "MINIUPNPC_SET_SOCKET_TIMEOUT"
   "_BSD_SOURCE"
   "_POSIX_C_SOURCE=1"

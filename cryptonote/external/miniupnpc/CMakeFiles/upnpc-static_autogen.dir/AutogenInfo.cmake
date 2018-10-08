@@ -17,7 +17,7 @@ set(AM_QT_UIC_EXECUTABLE )
 set(AM_QT_RCC_EXECUTABLE )
 # MOC settings
 set(AM_MOC_SKIP "/home/ubuntu1/dosh-gui/cryptonote/external/miniupnpc/upnpc-static_autogen/mocs_compilation.cpp")
-set(AM_MOC_DEFINITIONS "GIT_REVISION=\"e036af1\";MINIUPNPC_SET_SOCKET_TIMEOUT;_BSD_SOURCE;_POSIX_C_SOURCE=1")
+set(AM_MOC_DEFINITIONS "GIT_REVISION=\"353585b\";MINIUPNPC_SET_SOCKET_TIMEOUT;_BSD_SOURCE;_POSIX_C_SOURCE=1")
 set(AM_MOC_INCLUDES "/home/ubuntu1/dosh-gui/cryptonote/external/miniupnpc/upnpc-static_autogen/include;/home/ubuntu1/dosh-gui;/home/ubuntu1/dosh-gui/src;/home/ubuntu1/dosh-gui/include;/home/ubuntu1/dosh-gui/cryptonote/external;/home/ubuntu1/dosh-gui/cryptonote/external/rocksdb/include;/home/ubuntu1/dosh-gui/cryptonote/include;/home/ubuntu1/dosh-gui/cryptonote/src;/usr/include/x86_64-linux-gnu/qt5;/usr/include/x86_64-linux-gnu/qt5/QtDBus;/usr/include/x86_64-linux-gnu/qt5/QtCore;/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++;/home/ubuntu1/dosh-gui/external;/home/ubuntu1/dosh-gui/version;/home/ubuntu1/dosh-gui/Platform/Linux;/home/ubuntu1/dosh-gui/Platform/Posix;/home/ubuntu1/dosh-gui/cryptonote/src/Platform/Linux;/usr/include")
 set(AM_MOC_OPTIONS "")
 set(AM_MOC_RELAXED_MODE "FALSE")
