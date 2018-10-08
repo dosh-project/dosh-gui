@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu1/Dosh-QT-GUI-Wallet
+CMAKE_SOURCE_DIR = /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu1/Dosh-QT-GUI-Wallet
+CMAKE_BINARY_DIR = /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,14 +126,14 @@ install/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/ubuntu1/Dosh-QT-GUI-Wallet && $(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu1/Dosh-QT-GUI-Wallet/CMakeFiles /home/ubuntu1/Dosh-QT-GUI-Wallet/cryptonote/external/rocksdb/tools/CMakeFiles/progress.marks
-	cd /home/ubuntu1/Dosh-QT-GUI-Wallet && $(MAKE) -f CMakeFiles/Makefile2 cryptonote/external/rocksdb/tools/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu1/Dosh-QT-GUI-Wallet/CMakeFiles 0
+	cd /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui && $(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/CMakeFiles /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/cryptonote/external/rocksdb/tools/CMakeFiles/progress.marks
+	cd /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui && $(MAKE) -f CMakeFiles/Makefile2 cryptonote/external/rocksdb/tools/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/ubuntu1/Dosh-QT-GUI-Wallet && $(MAKE) -f CMakeFiles/Makefile2 cryptonote/external/rocksdb/tools/clean
+	cd /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui && $(MAKE) -f CMakeFiles/Makefile2 cryptonote/external/rocksdb/tools/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,22 +143,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/ubuntu1/Dosh-QT-GUI-Wallet && $(MAKE) -f CMakeFiles/Makefile2 cryptonote/external/rocksdb/tools/preinstall
+	cd /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui && $(MAKE) -f CMakeFiles/Makefile2 cryptonote/external/rocksdb/tools/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/ubuntu1/Dosh-QT-GUI-Wallet && $(MAKE) -f CMakeFiles/Makefile2 cryptonote/external/rocksdb/tools/preinstall
+	cd /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui && $(MAKE) -f CMakeFiles/Makefile2 cryptonote/external/rocksdb/tools/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/ubuntu1/Dosh-QT-GUI-Wallet && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 cryptonote/external/rocksdb/tools/CMakeFiles/rocksdb_dump.dir/rule:
-	cd /home/ubuntu1/Dosh-QT-GUI-Wallet && $(MAKE) -f CMakeFiles/Makefile2 cryptonote/external/rocksdb/tools/CMakeFiles/rocksdb_dump.dir/rule
+	cd /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui && $(MAKE) -f CMakeFiles/Makefile2 cryptonote/external/rocksdb/tools/CMakeFiles/rocksdb_dump.dir/rule
 .PHONY : cryptonote/external/rocksdb/tools/CMakeFiles/rocksdb_dump.dir/rule
 
 # Convenience name for target.
@@ -168,12 +168,12 @@ rocksdb_dump: cryptonote/external/rocksdb/tools/CMakeFiles/rocksdb_dump.dir/rule
 
 # fast build rule for target.
 rocksdb_dump/fast:
-	cd /home/ubuntu1/Dosh-QT-GUI-Wallet && $(MAKE) -f cryptonote/external/rocksdb/tools/CMakeFiles/rocksdb_dump.dir/build.make cryptonote/external/rocksdb/tools/CMakeFiles/rocksdb_dump.dir/build
+	cd /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui && $(MAKE) -f cryptonote/external/rocksdb/tools/CMakeFiles/rocksdb_dump.dir/build.make cryptonote/external/rocksdb/tools/CMakeFiles/rocksdb_dump.dir/build
 .PHONY : rocksdb_dump/fast
 
 # Convenience name for target.
 cryptonote/external/rocksdb/tools/CMakeFiles/tools.dir/rule:
-	cd /home/ubuntu1/Dosh-QT-GUI-Wallet && $(MAKE) -f CMakeFiles/Makefile2 cryptonote/external/rocksdb/tools/CMakeFiles/tools.dir/rule
+	cd /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui && $(MAKE) -f CMakeFiles/Makefile2 cryptonote/external/rocksdb/tools/CMakeFiles/tools.dir/rule
 .PHONY : cryptonote/external/rocksdb/tools/CMakeFiles/tools.dir/rule
 
 # Convenience name for target.
@@ -183,12 +183,12 @@ tools: cryptonote/external/rocksdb/tools/CMakeFiles/tools.dir/rule
 
 # fast build rule for target.
 tools/fast:
-	cd /home/ubuntu1/Dosh-QT-GUI-Wallet && $(MAKE) -f cryptonote/external/rocksdb/tools/CMakeFiles/tools.dir/build.make cryptonote/external/rocksdb/tools/CMakeFiles/tools.dir/build
+	cd /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui && $(MAKE) -f cryptonote/external/rocksdb/tools/CMakeFiles/tools.dir/build.make cryptonote/external/rocksdb/tools/CMakeFiles/tools.dir/build
 .PHONY : tools/fast
 
 # Convenience name for target.
 cryptonote/external/rocksdb/tools/CMakeFiles/db_sanity_test.dir/rule:
-	cd /home/ubuntu1/Dosh-QT-GUI-Wallet && $(MAKE) -f CMakeFiles/Makefile2 cryptonote/external/rocksdb/tools/CMakeFiles/db_sanity_test.dir/rule
+	cd /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui && $(MAKE) -f CMakeFiles/Makefile2 cryptonote/external/rocksdb/tools/CMakeFiles/db_sanity_test.dir/rule
 .PHONY : cryptonote/external/rocksdb/tools/CMakeFiles/db_sanity_test.dir/rule
 
 # Convenience name for target.
@@ -198,12 +198,12 @@ db_sanity_test: cryptonote/external/rocksdb/tools/CMakeFiles/db_sanity_test.dir/
 
 # fast build rule for target.
 db_sanity_test/fast:
-	cd /home/ubuntu1/Dosh-QT-GUI-Wallet && $(MAKE) -f cryptonote/external/rocksdb/tools/CMakeFiles/db_sanity_test.dir/build.make cryptonote/external/rocksdb/tools/CMakeFiles/db_sanity_test.dir/build
+	cd /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui && $(MAKE) -f cryptonote/external/rocksdb/tools/CMakeFiles/db_sanity_test.dir/build.make cryptonote/external/rocksdb/tools/CMakeFiles/db_sanity_test.dir/build
 .PHONY : db_sanity_test/fast
 
 # Convenience name for target.
 cryptonote/external/rocksdb/tools/CMakeFiles/sst_dump.dir/rule:
-	cd /home/ubuntu1/Dosh-QT-GUI-Wallet && $(MAKE) -f CMakeFiles/Makefile2 cryptonote/external/rocksdb/tools/CMakeFiles/sst_dump.dir/rule
+	cd /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui && $(MAKE) -f CMakeFiles/Makefile2 cryptonote/external/rocksdb/tools/CMakeFiles/sst_dump.dir/rule
 .PHONY : cryptonote/external/rocksdb/tools/CMakeFiles/sst_dump.dir/rule
 
 # Convenience name for target.
@@ -213,12 +213,12 @@ sst_dump: cryptonote/external/rocksdb/tools/CMakeFiles/sst_dump.dir/rule
 
 # fast build rule for target.
 sst_dump/fast:
-	cd /home/ubuntu1/Dosh-QT-GUI-Wallet && $(MAKE) -f cryptonote/external/rocksdb/tools/CMakeFiles/sst_dump.dir/build.make cryptonote/external/rocksdb/tools/CMakeFiles/sst_dump.dir/build
+	cd /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui && $(MAKE) -f cryptonote/external/rocksdb/tools/CMakeFiles/sst_dump.dir/build.make cryptonote/external/rocksdb/tools/CMakeFiles/sst_dump.dir/build
 .PHONY : sst_dump/fast
 
 # Convenience name for target.
 cryptonote/external/rocksdb/tools/CMakeFiles/rocksdb_undump.dir/rule:
-	cd /home/ubuntu1/Dosh-QT-GUI-Wallet && $(MAKE) -f CMakeFiles/Makefile2 cryptonote/external/rocksdb/tools/CMakeFiles/rocksdb_undump.dir/rule
+	cd /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui && $(MAKE) -f CMakeFiles/Makefile2 cryptonote/external/rocksdb/tools/CMakeFiles/rocksdb_undump.dir/rule
 .PHONY : cryptonote/external/rocksdb/tools/CMakeFiles/rocksdb_undump.dir/rule
 
 # Convenience name for target.
@@ -228,12 +228,12 @@ rocksdb_undump: cryptonote/external/rocksdb/tools/CMakeFiles/rocksdb_undump.dir/
 
 # fast build rule for target.
 rocksdb_undump/fast:
-	cd /home/ubuntu1/Dosh-QT-GUI-Wallet && $(MAKE) -f cryptonote/external/rocksdb/tools/CMakeFiles/rocksdb_undump.dir/build.make cryptonote/external/rocksdb/tools/CMakeFiles/rocksdb_undump.dir/build
+	cd /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui && $(MAKE) -f cryptonote/external/rocksdb/tools/CMakeFiles/rocksdb_undump.dir/build.make cryptonote/external/rocksdb/tools/CMakeFiles/rocksdb_undump.dir/build
 .PHONY : rocksdb_undump/fast
 
 # Convenience name for target.
 cryptonote/external/rocksdb/tools/CMakeFiles/db_stress.dir/rule:
-	cd /home/ubuntu1/Dosh-QT-GUI-Wallet && $(MAKE) -f CMakeFiles/Makefile2 cryptonote/external/rocksdb/tools/CMakeFiles/db_stress.dir/rule
+	cd /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui && $(MAKE) -f CMakeFiles/Makefile2 cryptonote/external/rocksdb/tools/CMakeFiles/db_stress.dir/rule
 .PHONY : cryptonote/external/rocksdb/tools/CMakeFiles/db_stress.dir/rule
 
 # Convenience name for target.
@@ -243,12 +243,12 @@ db_stress: cryptonote/external/rocksdb/tools/CMakeFiles/db_stress.dir/rule
 
 # fast build rule for target.
 db_stress/fast:
-	cd /home/ubuntu1/Dosh-QT-GUI-Wallet && $(MAKE) -f cryptonote/external/rocksdb/tools/CMakeFiles/db_stress.dir/build.make cryptonote/external/rocksdb/tools/CMakeFiles/db_stress.dir/build
+	cd /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui && $(MAKE) -f cryptonote/external/rocksdb/tools/CMakeFiles/db_stress.dir/build.make cryptonote/external/rocksdb/tools/CMakeFiles/db_stress.dir/build
 .PHONY : db_stress/fast
 
 # Convenience name for target.
 cryptonote/external/rocksdb/tools/CMakeFiles/ldb_tests.dir/rule:
-	cd /home/ubuntu1/Dosh-QT-GUI-Wallet && $(MAKE) -f CMakeFiles/Makefile2 cryptonote/external/rocksdb/tools/CMakeFiles/ldb_tests.dir/rule
+	cd /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui && $(MAKE) -f CMakeFiles/Makefile2 cryptonote/external/rocksdb/tools/CMakeFiles/ldb_tests.dir/rule
 .PHONY : cryptonote/external/rocksdb/tools/CMakeFiles/ldb_tests.dir/rule
 
 # Convenience name for target.
@@ -258,12 +258,12 @@ ldb_tests: cryptonote/external/rocksdb/tools/CMakeFiles/ldb_tests.dir/rule
 
 # fast build rule for target.
 ldb_tests/fast:
-	cd /home/ubuntu1/Dosh-QT-GUI-Wallet && $(MAKE) -f cryptonote/external/rocksdb/tools/CMakeFiles/ldb_tests.dir/build.make cryptonote/external/rocksdb/tools/CMakeFiles/ldb_tests.dir/build
+	cd /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui && $(MAKE) -f cryptonote/external/rocksdb/tools/CMakeFiles/ldb_tests.dir/build.make cryptonote/external/rocksdb/tools/CMakeFiles/ldb_tests.dir/build
 .PHONY : ldb_tests/fast
 
 # Convenience name for target.
 cryptonote/external/rocksdb/tools/CMakeFiles/ldb.dir/rule:
-	cd /home/ubuntu1/Dosh-QT-GUI-Wallet && $(MAKE) -f CMakeFiles/Makefile2 cryptonote/external/rocksdb/tools/CMakeFiles/ldb.dir/rule
+	cd /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui && $(MAKE) -f CMakeFiles/Makefile2 cryptonote/external/rocksdb/tools/CMakeFiles/ldb.dir/rule
 .PHONY : cryptonote/external/rocksdb/tools/CMakeFiles/ldb.dir/rule
 
 # Convenience name for target.
@@ -273,12 +273,12 @@ ldb: cryptonote/external/rocksdb/tools/CMakeFiles/ldb.dir/rule
 
 # fast build rule for target.
 ldb/fast:
-	cd /home/ubuntu1/Dosh-QT-GUI-Wallet && $(MAKE) -f cryptonote/external/rocksdb/tools/CMakeFiles/ldb.dir/build.make cryptonote/external/rocksdb/tools/CMakeFiles/ldb.dir/build
+	cd /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui && $(MAKE) -f cryptonote/external/rocksdb/tools/CMakeFiles/ldb.dir/build.make cryptonote/external/rocksdb/tools/CMakeFiles/ldb.dir/build
 .PHONY : ldb/fast
 
 # Convenience name for target.
 cryptonote/external/rocksdb/tools/CMakeFiles/write_stress.dir/rule:
-	cd /home/ubuntu1/Dosh-QT-GUI-Wallet && $(MAKE) -f CMakeFiles/Makefile2 cryptonote/external/rocksdb/tools/CMakeFiles/write_stress.dir/rule
+	cd /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui && $(MAKE) -f CMakeFiles/Makefile2 cryptonote/external/rocksdb/tools/CMakeFiles/write_stress.dir/rule
 .PHONY : cryptonote/external/rocksdb/tools/CMakeFiles/write_stress.dir/rule
 
 # Convenience name for target.
@@ -288,12 +288,12 @@ write_stress: cryptonote/external/rocksdb/tools/CMakeFiles/write_stress.dir/rule
 
 # fast build rule for target.
 write_stress/fast:
-	cd /home/ubuntu1/Dosh-QT-GUI-Wallet && $(MAKE) -f cryptonote/external/rocksdb/tools/CMakeFiles/write_stress.dir/build.make cryptonote/external/rocksdb/tools/CMakeFiles/write_stress.dir/build
+	cd /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui && $(MAKE) -f cryptonote/external/rocksdb/tools/CMakeFiles/write_stress.dir/build.make cryptonote/external/rocksdb/tools/CMakeFiles/write_stress.dir/build
 .PHONY : write_stress/fast
 
 # Convenience name for target.
 cryptonote/external/rocksdb/tools/CMakeFiles/db_repl_stress.dir/rule:
-	cd /home/ubuntu1/Dosh-QT-GUI-Wallet && $(MAKE) -f CMakeFiles/Makefile2 cryptonote/external/rocksdb/tools/CMakeFiles/db_repl_stress.dir/rule
+	cd /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui && $(MAKE) -f CMakeFiles/Makefile2 cryptonote/external/rocksdb/tools/CMakeFiles/db_repl_stress.dir/rule
 .PHONY : cryptonote/external/rocksdb/tools/CMakeFiles/db_repl_stress.dir/rule
 
 # Convenience name for target.
@@ -303,12 +303,12 @@ db_repl_stress: cryptonote/external/rocksdb/tools/CMakeFiles/db_repl_stress.dir/
 
 # fast build rule for target.
 db_repl_stress/fast:
-	cd /home/ubuntu1/Dosh-QT-GUI-Wallet && $(MAKE) -f cryptonote/external/rocksdb/tools/CMakeFiles/db_repl_stress.dir/build.make cryptonote/external/rocksdb/tools/CMakeFiles/db_repl_stress.dir/build
+	cd /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui && $(MAKE) -f cryptonote/external/rocksdb/tools/CMakeFiles/db_repl_stress.dir/build.make cryptonote/external/rocksdb/tools/CMakeFiles/db_repl_stress.dir/build
 .PHONY : db_repl_stress/fast
 
 # Convenience name for target.
 cryptonote/external/rocksdb/tools/CMakeFiles/rocksdb_dump_autogen.dir/rule:
-	cd /home/ubuntu1/Dosh-QT-GUI-Wallet && $(MAKE) -f CMakeFiles/Makefile2 cryptonote/external/rocksdb/tools/CMakeFiles/rocksdb_dump_autogen.dir/rule
+	cd /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui && $(MAKE) -f CMakeFiles/Makefile2 cryptonote/external/rocksdb/tools/CMakeFiles/rocksdb_dump_autogen.dir/rule
 .PHONY : cryptonote/external/rocksdb/tools/CMakeFiles/rocksdb_dump_autogen.dir/rule
 
 # Convenience name for target.
@@ -318,12 +318,12 @@ rocksdb_dump_autogen: cryptonote/external/rocksdb/tools/CMakeFiles/rocksdb_dump_
 
 # fast build rule for target.
 rocksdb_dump_autogen/fast:
-	cd /home/ubuntu1/Dosh-QT-GUI-Wallet && $(MAKE) -f cryptonote/external/rocksdb/tools/CMakeFiles/rocksdb_dump_autogen.dir/build.make cryptonote/external/rocksdb/tools/CMakeFiles/rocksdb_dump_autogen.dir/build
+	cd /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui && $(MAKE) -f cryptonote/external/rocksdb/tools/CMakeFiles/rocksdb_dump_autogen.dir/build.make cryptonote/external/rocksdb/tools/CMakeFiles/rocksdb_dump_autogen.dir/build
 .PHONY : rocksdb_dump_autogen/fast
 
 # Convenience name for target.
 cryptonote/external/rocksdb/tools/CMakeFiles/db_sanity_test_autogen.dir/rule:
-	cd /home/ubuntu1/Dosh-QT-GUI-Wallet && $(MAKE) -f CMakeFiles/Makefile2 cryptonote/external/rocksdb/tools/CMakeFiles/db_sanity_test_autogen.dir/rule
+	cd /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui && $(MAKE) -f CMakeFiles/Makefile2 cryptonote/external/rocksdb/tools/CMakeFiles/db_sanity_test_autogen.dir/rule
 .PHONY : cryptonote/external/rocksdb/tools/CMakeFiles/db_sanity_test_autogen.dir/rule
 
 # Convenience name for target.
@@ -333,12 +333,12 @@ db_sanity_test_autogen: cryptonote/external/rocksdb/tools/CMakeFiles/db_sanity_t
 
 # fast build rule for target.
 db_sanity_test_autogen/fast:
-	cd /home/ubuntu1/Dosh-QT-GUI-Wallet && $(MAKE) -f cryptonote/external/rocksdb/tools/CMakeFiles/db_sanity_test_autogen.dir/build.make cryptonote/external/rocksdb/tools/CMakeFiles/db_sanity_test_autogen.dir/build
+	cd /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui && $(MAKE) -f cryptonote/external/rocksdb/tools/CMakeFiles/db_sanity_test_autogen.dir/build.make cryptonote/external/rocksdb/tools/CMakeFiles/db_sanity_test_autogen.dir/build
 .PHONY : db_sanity_test_autogen/fast
 
 # Convenience name for target.
 cryptonote/external/rocksdb/tools/CMakeFiles/sst_dump_autogen.dir/rule:
-	cd /home/ubuntu1/Dosh-QT-GUI-Wallet && $(MAKE) -f CMakeFiles/Makefile2 cryptonote/external/rocksdb/tools/CMakeFiles/sst_dump_autogen.dir/rule
+	cd /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui && $(MAKE) -f CMakeFiles/Makefile2 cryptonote/external/rocksdb/tools/CMakeFiles/sst_dump_autogen.dir/rule
 .PHONY : cryptonote/external/rocksdb/tools/CMakeFiles/sst_dump_autogen.dir/rule
 
 # Convenience name for target.
@@ -348,12 +348,12 @@ sst_dump_autogen: cryptonote/external/rocksdb/tools/CMakeFiles/sst_dump_autogen.
 
 # fast build rule for target.
 sst_dump_autogen/fast:
-	cd /home/ubuntu1/Dosh-QT-GUI-Wallet && $(MAKE) -f cryptonote/external/rocksdb/tools/CMakeFiles/sst_dump_autogen.dir/build.make cryptonote/external/rocksdb/tools/CMakeFiles/sst_dump_autogen.dir/build
+	cd /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui && $(MAKE) -f cryptonote/external/rocksdb/tools/CMakeFiles/sst_dump_autogen.dir/build.make cryptonote/external/rocksdb/tools/CMakeFiles/sst_dump_autogen.dir/build
 .PHONY : sst_dump_autogen/fast
 
 # Convenience name for target.
 cryptonote/external/rocksdb/tools/CMakeFiles/rocksdb_undump_autogen.dir/rule:
-	cd /home/ubuntu1/Dosh-QT-GUI-Wallet && $(MAKE) -f CMakeFiles/Makefile2 cryptonote/external/rocksdb/tools/CMakeFiles/rocksdb_undump_autogen.dir/rule
+	cd /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui && $(MAKE) -f CMakeFiles/Makefile2 cryptonote/external/rocksdb/tools/CMakeFiles/rocksdb_undump_autogen.dir/rule
 .PHONY : cryptonote/external/rocksdb/tools/CMakeFiles/rocksdb_undump_autogen.dir/rule
 
 # Convenience name for target.
@@ -363,12 +363,12 @@ rocksdb_undump_autogen: cryptonote/external/rocksdb/tools/CMakeFiles/rocksdb_und
 
 # fast build rule for target.
 rocksdb_undump_autogen/fast:
-	cd /home/ubuntu1/Dosh-QT-GUI-Wallet && $(MAKE) -f cryptonote/external/rocksdb/tools/CMakeFiles/rocksdb_undump_autogen.dir/build.make cryptonote/external/rocksdb/tools/CMakeFiles/rocksdb_undump_autogen.dir/build
+	cd /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui && $(MAKE) -f cryptonote/external/rocksdb/tools/CMakeFiles/rocksdb_undump_autogen.dir/build.make cryptonote/external/rocksdb/tools/CMakeFiles/rocksdb_undump_autogen.dir/build
 .PHONY : rocksdb_undump_autogen/fast
 
 # Convenience name for target.
 cryptonote/external/rocksdb/tools/CMakeFiles/db_stress_autogen.dir/rule:
-	cd /home/ubuntu1/Dosh-QT-GUI-Wallet && $(MAKE) -f CMakeFiles/Makefile2 cryptonote/external/rocksdb/tools/CMakeFiles/db_stress_autogen.dir/rule
+	cd /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui && $(MAKE) -f CMakeFiles/Makefile2 cryptonote/external/rocksdb/tools/CMakeFiles/db_stress_autogen.dir/rule
 .PHONY : cryptonote/external/rocksdb/tools/CMakeFiles/db_stress_autogen.dir/rule
 
 # Convenience name for target.
@@ -378,12 +378,12 @@ db_stress_autogen: cryptonote/external/rocksdb/tools/CMakeFiles/db_stress_autoge
 
 # fast build rule for target.
 db_stress_autogen/fast:
-	cd /home/ubuntu1/Dosh-QT-GUI-Wallet && $(MAKE) -f cryptonote/external/rocksdb/tools/CMakeFiles/db_stress_autogen.dir/build.make cryptonote/external/rocksdb/tools/CMakeFiles/db_stress_autogen.dir/build
+	cd /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui && $(MAKE) -f cryptonote/external/rocksdb/tools/CMakeFiles/db_stress_autogen.dir/build.make cryptonote/external/rocksdb/tools/CMakeFiles/db_stress_autogen.dir/build
 .PHONY : db_stress_autogen/fast
 
 # Convenience name for target.
 cryptonote/external/rocksdb/tools/CMakeFiles/ldb_autogen.dir/rule:
-	cd /home/ubuntu1/Dosh-QT-GUI-Wallet && $(MAKE) -f CMakeFiles/Makefile2 cryptonote/external/rocksdb/tools/CMakeFiles/ldb_autogen.dir/rule
+	cd /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui && $(MAKE) -f CMakeFiles/Makefile2 cryptonote/external/rocksdb/tools/CMakeFiles/ldb_autogen.dir/rule
 .PHONY : cryptonote/external/rocksdb/tools/CMakeFiles/ldb_autogen.dir/rule
 
 # Convenience name for target.
@@ -393,12 +393,12 @@ ldb_autogen: cryptonote/external/rocksdb/tools/CMakeFiles/ldb_autogen.dir/rule
 
 # fast build rule for target.
 ldb_autogen/fast:
-	cd /home/ubuntu1/Dosh-QT-GUI-Wallet && $(MAKE) -f cryptonote/external/rocksdb/tools/CMakeFiles/ldb_autogen.dir/build.make cryptonote/external/rocksdb/tools/CMakeFiles/ldb_autogen.dir/build
+	cd /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui && $(MAKE) -f cryptonote/external/rocksdb/tools/CMakeFiles/ldb_autogen.dir/build.make cryptonote/external/rocksdb/tools/CMakeFiles/ldb_autogen.dir/build
 .PHONY : ldb_autogen/fast
 
 # Convenience name for target.
 cryptonote/external/rocksdb/tools/CMakeFiles/write_stress_autogen.dir/rule:
-	cd /home/ubuntu1/Dosh-QT-GUI-Wallet && $(MAKE) -f CMakeFiles/Makefile2 cryptonote/external/rocksdb/tools/CMakeFiles/write_stress_autogen.dir/rule
+	cd /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui && $(MAKE) -f CMakeFiles/Makefile2 cryptonote/external/rocksdb/tools/CMakeFiles/write_stress_autogen.dir/rule
 .PHONY : cryptonote/external/rocksdb/tools/CMakeFiles/write_stress_autogen.dir/rule
 
 # Convenience name for target.
@@ -408,12 +408,12 @@ write_stress_autogen: cryptonote/external/rocksdb/tools/CMakeFiles/write_stress_
 
 # fast build rule for target.
 write_stress_autogen/fast:
-	cd /home/ubuntu1/Dosh-QT-GUI-Wallet && $(MAKE) -f cryptonote/external/rocksdb/tools/CMakeFiles/write_stress_autogen.dir/build.make cryptonote/external/rocksdb/tools/CMakeFiles/write_stress_autogen.dir/build
+	cd /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui && $(MAKE) -f cryptonote/external/rocksdb/tools/CMakeFiles/write_stress_autogen.dir/build.make cryptonote/external/rocksdb/tools/CMakeFiles/write_stress_autogen.dir/build
 .PHONY : write_stress_autogen/fast
 
 # Convenience name for target.
 cryptonote/external/rocksdb/tools/CMakeFiles/db_repl_stress_autogen.dir/rule:
-	cd /home/ubuntu1/Dosh-QT-GUI-Wallet && $(MAKE) -f CMakeFiles/Makefile2 cryptonote/external/rocksdb/tools/CMakeFiles/db_repl_stress_autogen.dir/rule
+	cd /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui && $(MAKE) -f CMakeFiles/Makefile2 cryptonote/external/rocksdb/tools/CMakeFiles/db_repl_stress_autogen.dir/rule
 .PHONY : cryptonote/external/rocksdb/tools/CMakeFiles/db_repl_stress_autogen.dir/rule
 
 # Convenience name for target.
@@ -423,7 +423,7 @@ db_repl_stress_autogen: cryptonote/external/rocksdb/tools/CMakeFiles/db_repl_str
 
 # fast build rule for target.
 db_repl_stress_autogen/fast:
-	cd /home/ubuntu1/Dosh-QT-GUI-Wallet && $(MAKE) -f cryptonote/external/rocksdb/tools/CMakeFiles/db_repl_stress_autogen.dir/build.make cryptonote/external/rocksdb/tools/CMakeFiles/db_repl_stress_autogen.dir/build
+	cd /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui && $(MAKE) -f cryptonote/external/rocksdb/tools/CMakeFiles/db_repl_stress_autogen.dir/build.make cryptonote/external/rocksdb/tools/CMakeFiles/db_repl_stress_autogen.dir/build
 .PHONY : db_repl_stress_autogen/fast
 
 db_repl_stress.o: db_repl_stress.cc.o
@@ -432,7 +432,7 @@ db_repl_stress.o: db_repl_stress.cc.o
 
 # target to build an object file
 db_repl_stress.cc.o:
-	cd /home/ubuntu1/Dosh-QT-GUI-Wallet && $(MAKE) -f cryptonote/external/rocksdb/tools/CMakeFiles/db_repl_stress.dir/build.make cryptonote/external/rocksdb/tools/CMakeFiles/db_repl_stress.dir/db_repl_stress.cc.o
+	cd /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui && $(MAKE) -f cryptonote/external/rocksdb/tools/CMakeFiles/db_repl_stress.dir/build.make cryptonote/external/rocksdb/tools/CMakeFiles/db_repl_stress.dir/db_repl_stress.cc.o
 .PHONY : db_repl_stress.cc.o
 
 db_repl_stress.i: db_repl_stress.cc.i
@@ -441,7 +441,7 @@ db_repl_stress.i: db_repl_stress.cc.i
 
 # target to preprocess a source file
 db_repl_stress.cc.i:
-	cd /home/ubuntu1/Dosh-QT-GUI-Wallet && $(MAKE) -f cryptonote/external/rocksdb/tools/CMakeFiles/db_repl_stress.dir/build.make cryptonote/external/rocksdb/tools/CMakeFiles/db_repl_stress.dir/db_repl_stress.cc.i
+	cd /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui && $(MAKE) -f cryptonote/external/rocksdb/tools/CMakeFiles/db_repl_stress.dir/build.make cryptonote/external/rocksdb/tools/CMakeFiles/db_repl_stress.dir/db_repl_stress.cc.i
 .PHONY : db_repl_stress.cc.i
 
 db_repl_stress.s: db_repl_stress.cc.s
@@ -450,7 +450,7 @@ db_repl_stress.s: db_repl_stress.cc.s
 
 # target to generate assembly for a file
 db_repl_stress.cc.s:
-	cd /home/ubuntu1/Dosh-QT-GUI-Wallet && $(MAKE) -f cryptonote/external/rocksdb/tools/CMakeFiles/db_repl_stress.dir/build.make cryptonote/external/rocksdb/tools/CMakeFiles/db_repl_stress.dir/db_repl_stress.cc.s
+	cd /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui && $(MAKE) -f cryptonote/external/rocksdb/tools/CMakeFiles/db_repl_stress.dir/build.make cryptonote/external/rocksdb/tools/CMakeFiles/db_repl_stress.dir/db_repl_stress.cc.s
 .PHONY : db_repl_stress.cc.s
 
 db_repl_stress_autogen/mocs_compilation.o: db_repl_stress_autogen/mocs_compilation.cpp.o
@@ -459,7 +459,7 @@ db_repl_stress_autogen/mocs_compilation.o: db_repl_stress_autogen/mocs_compilati
 
 # target to build an object file
 db_repl_stress_autogen/mocs_compilation.cpp.o:
-	cd /home/ubuntu1/Dosh-QT-GUI-Wallet && $(MAKE) -f cryptonote/external/rocksdb/tools/CMakeFiles/db_repl_stress.dir/build.make cryptonote/external/rocksdb/tools/CMakeFiles/db_repl_stress.dir/db_repl_stress_autogen/mocs_compilation.cpp.o
+	cd /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui && $(MAKE) -f cryptonote/external/rocksdb/tools/CMakeFiles/db_repl_stress.dir/build.make cryptonote/external/rocksdb/tools/CMakeFiles/db_repl_stress.dir/db_repl_stress_autogen/mocs_compilation.cpp.o
 .PHONY : db_repl_stress_autogen/mocs_compilation.cpp.o
 
 db_repl_stress_autogen/mocs_compilation.i: db_repl_stress_autogen/mocs_compilation.cpp.i
@@ -468,7 +468,7 @@ db_repl_stress_autogen/mocs_compilation.i: db_repl_stress_autogen/mocs_compilati
 
 # target to preprocess a source file
 db_repl_stress_autogen/mocs_compilation.cpp.i:
-	cd /home/ubuntu1/Dosh-QT-GUI-Wallet && $(MAKE) -f cryptonote/external/rocksdb/tools/CMakeFiles/db_repl_stress.dir/build.make cryptonote/external/rocksdb/tools/CMakeFiles/db_repl_stress.dir/db_repl_stress_autogen/mocs_compilation.cpp.i
+	cd /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui && $(MAKE) -f cryptonote/external/rocksdb/tools/CMakeFiles/db_repl_stress.dir/build.make cryptonote/external/rocksdb/tools/CMakeFiles/db_repl_stress.dir/db_repl_stress_autogen/mocs_compilation.cpp.i
 .PHONY : db_repl_stress_autogen/mocs_compilation.cpp.i
 
 db_repl_stress_autogen/mocs_compilation.s: db_repl_stress_autogen/mocs_compilation.cpp.s
@@ -477,7 +477,7 @@ db_repl_stress_autogen/mocs_compilation.s: db_repl_stress_autogen/mocs_compilati
 
 # target to generate assembly for a file
 db_repl_stress_autogen/mocs_compilation.cpp.s:
-	cd /home/ubuntu1/Dosh-QT-GUI-Wallet && $(MAKE) -f cryptonote/external/rocksdb/tools/CMakeFiles/db_repl_stress.dir/build.make cryptonote/external/rocksdb/tools/CMakeFiles/db_repl_stress.dir/db_repl_stress_autogen/mocs_compilation.cpp.s
+	cd /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui && $(MAKE) -f cryptonote/external/rocksdb/tools/CMakeFiles/db_repl_stress.dir/build.make cryptonote/external/rocksdb/tools/CMakeFiles/db_repl_stress.dir/db_repl_stress_autogen/mocs_compilation.cpp.s
 .PHONY : db_repl_stress_autogen/mocs_compilation.cpp.s
 
 db_sanity_test.o: db_sanity_test.cc.o
@@ -486,7 +486,7 @@ db_sanity_test.o: db_sanity_test.cc.o
 
 # target to build an object file
 db_sanity_test.cc.o:
-	cd /home/ubuntu1/Dosh-QT-GUI-Wallet && $(MAKE) -f cryptonote/external/rocksdb/tools/CMakeFiles/db_sanity_test.dir/build.make cryptonote/external/rocksdb/tools/CMakeFiles/db_sanity_test.dir/db_sanity_test.cc.o
+	cd /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui && $(MAKE) -f cryptonote/external/rocksdb/tools/CMakeFiles/db_sanity_test.dir/build.make cryptonote/external/rocksdb/tools/CMakeFiles/db_sanity_test.dir/db_sanity_test.cc.o
 .PHONY : db_sanity_test.cc.o
 
 db_sanity_test.i: db_sanity_test.cc.i
@@ -495,7 +495,7 @@ db_sanity_test.i: db_sanity_test.cc.i
 
 # target to preprocess a source file
 db_sanity_test.cc.i:
-	cd /home/ubuntu1/Dosh-QT-GUI-Wallet && $(MAKE) -f cryptonote/external/rocksdb/tools/CMakeFiles/db_sanity_test.dir/build.make cryptonote/external/rocksdb/tools/CMakeFiles/db_sanity_test.dir/db_sanity_test.cc.i
+	cd /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui && $(MAKE) -f cryptonote/external/rocksdb/tools/CMakeFiles/db_sanity_test.dir/build.make cryptonote/external/rocksdb/tools/CMakeFiles/db_sanity_test.dir/db_sanity_test.cc.i
 .PHONY : db_sanity_test.cc.i
 
 db_sanity_test.s: db_sanity_test.cc.s
@@ -504,7 +504,7 @@ db_sanity_test.s: db_sanity_test.cc.s
 
 # target to generate assembly for a file
 db_sanity_test.cc.s:
-	cd /home/ubuntu1/Dosh-QT-GUI-Wallet && $(MAKE) -f cryptonote/external/rocksdb/tools/CMakeFiles/db_sanity_test.dir/build.make cryptonote/external/rocksdb/tools/CMakeFiles/db_sanity_test.dir/db_sanity_test.cc.s
+	cd /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui && $(MAKE) -f cryptonote/external/rocksdb/tools/CMakeFiles/db_sanity_test.dir/build.make cryptonote/external/rocksdb/tools/CMakeFiles/db_sanity_test.dir/db_sanity_test.cc.s
 .PHONY : db_sanity_test.cc.s
 
 db_sanity_test_autogen/mocs_compilation.o: db_sanity_test_autogen/mocs_compilation.cpp.o
@@ -513,7 +513,7 @@ db_sanity_test_autogen/mocs_compilation.o: db_sanity_test_autogen/mocs_compilati
 
 # target to build an object file
 db_sanity_test_autogen/mocs_compilation.cpp.o:
-	cd /home/ubuntu1/Dosh-QT-GUI-Wallet && $(MAKE) -f cryptonote/external/rocksdb/tools/CMakeFiles/db_sanity_test.dir/build.make cryptonote/external/rocksdb/tools/CMakeFiles/db_sanity_test.dir/db_sanity_test_autogen/mocs_compilation.cpp.o
+	cd /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui && $(MAKE) -f cryptonote/external/rocksdb/tools/CMakeFiles/db_sanity_test.dir/build.make cryptonote/external/rocksdb/tools/CMakeFiles/db_sanity_test.dir/db_sanity_test_autogen/mocs_compilation.cpp.o
 .PHONY : db_sanity_test_autogen/mocs_compilation.cpp.o
 
 db_sanity_test_autogen/mocs_compilation.i: db_sanity_test_autogen/mocs_compilation.cpp.i
@@ -522,7 +522,7 @@ db_sanity_test_autogen/mocs_compilation.i: db_sanity_test_autogen/mocs_compilati
 
 # target to preprocess a source file
 db_sanity_test_autogen/mocs_compilation.cpp.i:
-	cd /home/ubuntu1/Dosh-QT-GUI-Wallet && $(MAKE) -f cryptonote/external/rocksdb/tools/CMakeFiles/db_sanity_test.dir/build.make cryptonote/external/rocksdb/tools/CMakeFiles/db_sanity_test.dir/db_sanity_test_autogen/mocs_compilation.cpp.i
+	cd /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui && $(MAKE) -f cryptonote/external/rocksdb/tools/CMakeFiles/db_sanity_test.dir/build.make cryptonote/external/rocksdb/tools/CMakeFiles/db_sanity_test.dir/db_sanity_test_autogen/mocs_compilation.cpp.i
 .PHONY : db_sanity_test_autogen/mocs_compilation.cpp.i
 
 db_sanity_test_autogen/mocs_compilation.s: db_sanity_test_autogen/mocs_compilation.cpp.s
@@ -531,7 +531,7 @@ db_sanity_test_autogen/mocs_compilation.s: db_sanity_test_autogen/mocs_compilati
 
 # target to generate assembly for a file
 db_sanity_test_autogen/mocs_compilation.cpp.s:
-	cd /home/ubuntu1/Dosh-QT-GUI-Wallet && $(MAKE) -f cryptonote/external/rocksdb/tools/CMakeFiles/db_sanity_test.dir/build.make cryptonote/external/rocksdb/tools/CMakeFiles/db_sanity_test.dir/db_sanity_test_autogen/mocs_compilation.cpp.s
+	cd /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui && $(MAKE) -f cryptonote/external/rocksdb/tools/CMakeFiles/db_sanity_test.dir/build.make cryptonote/external/rocksdb/tools/CMakeFiles/db_sanity_test.dir/db_sanity_test_autogen/mocs_compilation.cpp.s
 .PHONY : db_sanity_test_autogen/mocs_compilation.cpp.s
 
 db_stress.o: db_stress.cc.o
@@ -540,7 +540,7 @@ db_stress.o: db_stress.cc.o
 
 # target to build an object file
 db_stress.cc.o:
-	cd /home/ubuntu1/Dosh-QT-GUI-Wallet && $(MAKE) -f cryptonote/external/rocksdb/tools/CMakeFiles/db_stress.dir/build.make cryptonote/external/rocksdb/tools/CMakeFiles/db_stress.dir/db_stress.cc.o
+	cd /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui && $(MAKE) -f cryptonote/external/rocksdb/tools/CMakeFiles/db_stress.dir/build.make cryptonote/external/rocksdb/tools/CMakeFiles/db_stress.dir/db_stress.cc.o
 .PHONY : db_stress.cc.o
 
 db_stress.i: db_stress.cc.i
@@ -549,7 +549,7 @@ db_stress.i: db_stress.cc.i
 
 # target to preprocess a source file
 db_stress.cc.i:
-	cd /home/ubuntu1/Dosh-QT-GUI-Wallet && $(MAKE) -f cryptonote/external/rocksdb/tools/CMakeFiles/db_stress.dir/build.make cryptonote/external/rocksdb/tools/CMakeFiles/db_stress.dir/db_stress.cc.i
+	cd /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui && $(MAKE) -f cryptonote/external/rocksdb/tools/CMakeFiles/db_stress.dir/build.make cryptonote/external/rocksdb/tools/CMakeFiles/db_stress.dir/db_stress.cc.i
 .PHONY : db_stress.cc.i
 
 db_stress.s: db_stress.cc.s
@@ -558,7 +558,7 @@ db_stress.s: db_stress.cc.s
 
 # target to generate assembly for a file
 db_stress.cc.s:
-	cd /home/ubuntu1/Dosh-QT-GUI-Wallet && $(MAKE) -f cryptonote/external/rocksdb/tools/CMakeFiles/db_stress.dir/build.make cryptonote/external/rocksdb/tools/CMakeFiles/db_stress.dir/db_stress.cc.s
+	cd /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui && $(MAKE) -f cryptonote/external/rocksdb/tools/CMakeFiles/db_stress.dir/build.make cryptonote/external/rocksdb/tools/CMakeFiles/db_stress.dir/db_stress.cc.s
 .PHONY : db_stress.cc.s
 
 db_stress_autogen/mocs_compilation.o: db_stress_autogen/mocs_compilation.cpp.o
@@ -567,7 +567,7 @@ db_stress_autogen/mocs_compilation.o: db_stress_autogen/mocs_compilation.cpp.o
 
 # target to build an object file
 db_stress_autogen/mocs_compilation.cpp.o:
-	cd /home/ubuntu1/Dosh-QT-GUI-Wallet && $(MAKE) -f cryptonote/external/rocksdb/tools/CMakeFiles/db_stress.dir/build.make cryptonote/external/rocksdb/tools/CMakeFiles/db_stress.dir/db_stress_autogen/mocs_compilation.cpp.o
+	cd /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui && $(MAKE) -f cryptonote/external/rocksdb/tools/CMakeFiles/db_stress.dir/build.make cryptonote/external/rocksdb/tools/CMakeFiles/db_stress.dir/db_stress_autogen/mocs_compilation.cpp.o
 .PHONY : db_stress_autogen/mocs_compilation.cpp.o
 
 db_stress_autogen/mocs_compilation.i: db_stress_autogen/mocs_compilation.cpp.i
@@ -576,7 +576,7 @@ db_stress_autogen/mocs_compilation.i: db_stress_autogen/mocs_compilation.cpp.i
 
 # target to preprocess a source file
 db_stress_autogen/mocs_compilation.cpp.i:
-	cd /home/ubuntu1/Dosh-QT-GUI-Wallet && $(MAKE) -f cryptonote/external/rocksdb/tools/CMakeFiles/db_stress.dir/build.make cryptonote/external/rocksdb/tools/CMakeFiles/db_stress.dir/db_stress_autogen/mocs_compilation.cpp.i
+	cd /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui && $(MAKE) -f cryptonote/external/rocksdb/tools/CMakeFiles/db_stress.dir/build.make cryptonote/external/rocksdb/tools/CMakeFiles/db_stress.dir/db_stress_autogen/mocs_compilation.cpp.i
 .PHONY : db_stress_autogen/mocs_compilation.cpp.i
 
 db_stress_autogen/mocs_compilation.s: db_stress_autogen/mocs_compilation.cpp.s
@@ -585,7 +585,7 @@ db_stress_autogen/mocs_compilation.s: db_stress_autogen/mocs_compilation.cpp.s
 
 # target to generate assembly for a file
 db_stress_autogen/mocs_compilation.cpp.s:
-	cd /home/ubuntu1/Dosh-QT-GUI-Wallet && $(MAKE) -f cryptonote/external/rocksdb/tools/CMakeFiles/db_stress.dir/build.make cryptonote/external/rocksdb/tools/CMakeFiles/db_stress.dir/db_stress_autogen/mocs_compilation.cpp.s
+	cd /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui && $(MAKE) -f cryptonote/external/rocksdb/tools/CMakeFiles/db_stress.dir/build.make cryptonote/external/rocksdb/tools/CMakeFiles/db_stress.dir/db_stress_autogen/mocs_compilation.cpp.s
 .PHONY : db_stress_autogen/mocs_compilation.cpp.s
 
 dump/rocksdb_dump.o: dump/rocksdb_dump.cc.o
@@ -594,7 +594,7 @@ dump/rocksdb_dump.o: dump/rocksdb_dump.cc.o
 
 # target to build an object file
 dump/rocksdb_dump.cc.o:
-	cd /home/ubuntu1/Dosh-QT-GUI-Wallet && $(MAKE) -f cryptonote/external/rocksdb/tools/CMakeFiles/rocksdb_dump.dir/build.make cryptonote/external/rocksdb/tools/CMakeFiles/rocksdb_dump.dir/dump/rocksdb_dump.cc.o
+	cd /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui && $(MAKE) -f cryptonote/external/rocksdb/tools/CMakeFiles/rocksdb_dump.dir/build.make cryptonote/external/rocksdb/tools/CMakeFiles/rocksdb_dump.dir/dump/rocksdb_dump.cc.o
 .PHONY : dump/rocksdb_dump.cc.o
 
 dump/rocksdb_dump.i: dump/rocksdb_dump.cc.i
@@ -603,7 +603,7 @@ dump/rocksdb_dump.i: dump/rocksdb_dump.cc.i
 
 # target to preprocess a source file
 dump/rocksdb_dump.cc.i:
-	cd /home/ubuntu1/Dosh-QT-GUI-Wallet && $(MAKE) -f cryptonote/external/rocksdb/tools/CMakeFiles/rocksdb_dump.dir/build.make cryptonote/external/rocksdb/tools/CMakeFiles/rocksdb_dump.dir/dump/rocksdb_dump.cc.i
+	cd /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui && $(MAKE) -f cryptonote/external/rocksdb/tools/CMakeFiles/rocksdb_dump.dir/build.make cryptonote/external/rocksdb/tools/CMakeFiles/rocksdb_dump.dir/dump/rocksdb_dump.cc.i
 .PHONY : dump/rocksdb_dump.cc.i
 
 dump/rocksdb_dump.s: dump/rocksdb_dump.cc.s
@@ -612,7 +612,7 @@ dump/rocksdb_dump.s: dump/rocksdb_dump.cc.s
 
 # target to generate assembly for a file
 dump/rocksdb_dump.cc.s:
-	cd /home/ubuntu1/Dosh-QT-GUI-Wallet && $(MAKE) -f cryptonote/external/rocksdb/tools/CMakeFiles/rocksdb_dump.dir/build.make cryptonote/external/rocksdb/tools/CMakeFiles/rocksdb_dump.dir/dump/rocksdb_dump.cc.s
+	cd /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui && $(MAKE) -f cryptonote/external/rocksdb/tools/CMakeFiles/rocksdb_dump.dir/build.make cryptonote/external/rocksdb/tools/CMakeFiles/rocksdb_dump.dir/dump/rocksdb_dump.cc.s
 .PHONY : dump/rocksdb_dump.cc.s
 
 dump/rocksdb_undump.o: dump/rocksdb_undump.cc.o
@@ -621,7 +621,7 @@ dump/rocksdb_undump.o: dump/rocksdb_undump.cc.o
 
 # target to build an object file
 dump/rocksdb_undump.cc.o:
-	cd /home/ubuntu1/Dosh-QT-GUI-Wallet && $(MAKE) -f cryptonote/external/rocksdb/tools/CMakeFiles/rocksdb_undump.dir/build.make cryptonote/external/rocksdb/tools/CMakeFiles/rocksdb_undump.dir/dump/rocksdb_undump.cc.o
+	cd /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui && $(MAKE) -f cryptonote/external/rocksdb/tools/CMakeFiles/rocksdb_undump.dir/build.make cryptonote/external/rocksdb/tools/CMakeFiles/rocksdb_undump.dir/dump/rocksdb_undump.cc.o
 .PHONY : dump/rocksdb_undump.cc.o
 
 dump/rocksdb_undump.i: dump/rocksdb_undump.cc.i
@@ -630,7 +630,7 @@ dump/rocksdb_undump.i: dump/rocksdb_undump.cc.i
 
 # target to preprocess a source file
 dump/rocksdb_undump.cc.i:
-	cd /home/ubuntu1/Dosh-QT-GUI-Wallet && $(MAKE) -f cryptonote/external/rocksdb/tools/CMakeFiles/rocksdb_undump.dir/build.make cryptonote/external/rocksdb/tools/CMakeFiles/rocksdb_undump.dir/dump/rocksdb_undump.cc.i
+	cd /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui && $(MAKE) -f cryptonote/external/rocksdb/tools/CMakeFiles/rocksdb_undump.dir/build.make cryptonote/external/rocksdb/tools/CMakeFiles/rocksdb_undump.dir/dump/rocksdb_undump.cc.i
 .PHONY : dump/rocksdb_undump.cc.i
 
 dump/rocksdb_undump.s: dump/rocksdb_undump.cc.s
@@ -639,7 +639,7 @@ dump/rocksdb_undump.s: dump/rocksdb_undump.cc.s
 
 # target to generate assembly for a file
 dump/rocksdb_undump.cc.s:
-	cd /home/ubuntu1/Dosh-QT-GUI-Wallet && $(MAKE) -f cryptonote/external/rocksdb/tools/CMakeFiles/rocksdb_undump.dir/build.make cryptonote/external/rocksdb/tools/CMakeFiles/rocksdb_undump.dir/dump/rocksdb_undump.cc.s
+	cd /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui && $(MAKE) -f cryptonote/external/rocksdb/tools/CMakeFiles/rocksdb_undump.dir/build.make cryptonote/external/rocksdb/tools/CMakeFiles/rocksdb_undump.dir/dump/rocksdb_undump.cc.s
 .PHONY : dump/rocksdb_undump.cc.s
 
 ldb.o: ldb.cc.o
@@ -648,7 +648,7 @@ ldb.o: ldb.cc.o
 
 # target to build an object file
 ldb.cc.o:
-	cd /home/ubuntu1/Dosh-QT-GUI-Wallet && $(MAKE) -f cryptonote/external/rocksdb/tools/CMakeFiles/ldb.dir/build.make cryptonote/external/rocksdb/tools/CMakeFiles/ldb.dir/ldb.cc.o
+	cd /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui && $(MAKE) -f cryptonote/external/rocksdb/tools/CMakeFiles/ldb.dir/build.make cryptonote/external/rocksdb/tools/CMakeFiles/ldb.dir/ldb.cc.o
 .PHONY : ldb.cc.o
 
 ldb.i: ldb.cc.i
@@ -657,7 +657,7 @@ ldb.i: ldb.cc.i
 
 # target to preprocess a source file
 ldb.cc.i:
-	cd /home/ubuntu1/Dosh-QT-GUI-Wallet && $(MAKE) -f cryptonote/external/rocksdb/tools/CMakeFiles/ldb.dir/build.make cryptonote/external/rocksdb/tools/CMakeFiles/ldb.dir/ldb.cc.i
+	cd /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui && $(MAKE) -f cryptonote/external/rocksdb/tools/CMakeFiles/ldb.dir/build.make cryptonote/external/rocksdb/tools/CMakeFiles/ldb.dir/ldb.cc.i
 .PHONY : ldb.cc.i
 
 ldb.s: ldb.cc.s
@@ -666,7 +666,7 @@ ldb.s: ldb.cc.s
 
 # target to generate assembly for a file
 ldb.cc.s:
-	cd /home/ubuntu1/Dosh-QT-GUI-Wallet && $(MAKE) -f cryptonote/external/rocksdb/tools/CMakeFiles/ldb.dir/build.make cryptonote/external/rocksdb/tools/CMakeFiles/ldb.dir/ldb.cc.s
+	cd /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui && $(MAKE) -f cryptonote/external/rocksdb/tools/CMakeFiles/ldb.dir/build.make cryptonote/external/rocksdb/tools/CMakeFiles/ldb.dir/ldb.cc.s
 .PHONY : ldb.cc.s
 
 ldb_autogen/mocs_compilation.o: ldb_autogen/mocs_compilation.cpp.o
@@ -675,7 +675,7 @@ ldb_autogen/mocs_compilation.o: ldb_autogen/mocs_compilation.cpp.o
 
 # target to build an object file
 ldb_autogen/mocs_compilation.cpp.o:
-	cd /home/ubuntu1/Dosh-QT-GUI-Wallet && $(MAKE) -f cryptonote/external/rocksdb/tools/CMakeFiles/ldb.dir/build.make cryptonote/external/rocksdb/tools/CMakeFiles/ldb.dir/ldb_autogen/mocs_compilation.cpp.o
+	cd /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui && $(MAKE) -f cryptonote/external/rocksdb/tools/CMakeFiles/ldb.dir/build.make cryptonote/external/rocksdb/tools/CMakeFiles/ldb.dir/ldb_autogen/mocs_compilation.cpp.o
 .PHONY : ldb_autogen/mocs_compilation.cpp.o
 
 ldb_autogen/mocs_compilation.i: ldb_autogen/mocs_compilation.cpp.i
@@ -684,7 +684,7 @@ ldb_autogen/mocs_compilation.i: ldb_autogen/mocs_compilation.cpp.i
 
 # target to preprocess a source file
 ldb_autogen/mocs_compilation.cpp.i:
-	cd /home/ubuntu1/Dosh-QT-GUI-Wallet && $(MAKE) -f cryptonote/external/rocksdb/tools/CMakeFiles/ldb.dir/build.make cryptonote/external/rocksdb/tools/CMakeFiles/ldb.dir/ldb_autogen/mocs_compilation.cpp.i
+	cd /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui && $(MAKE) -f cryptonote/external/rocksdb/tools/CMakeFiles/ldb.dir/build.make cryptonote/external/rocksdb/tools/CMakeFiles/ldb.dir/ldb_autogen/mocs_compilation.cpp.i
 .PHONY : ldb_autogen/mocs_compilation.cpp.i
 
 ldb_autogen/mocs_compilation.s: ldb_autogen/mocs_compilation.cpp.s
@@ -693,7 +693,7 @@ ldb_autogen/mocs_compilation.s: ldb_autogen/mocs_compilation.cpp.s
 
 # target to generate assembly for a file
 ldb_autogen/mocs_compilation.cpp.s:
-	cd /home/ubuntu1/Dosh-QT-GUI-Wallet && $(MAKE) -f cryptonote/external/rocksdb/tools/CMakeFiles/ldb.dir/build.make cryptonote/external/rocksdb/tools/CMakeFiles/ldb.dir/ldb_autogen/mocs_compilation.cpp.s
+	cd /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui && $(MAKE) -f cryptonote/external/rocksdb/tools/CMakeFiles/ldb.dir/build.make cryptonote/external/rocksdb/tools/CMakeFiles/ldb.dir/ldb_autogen/mocs_compilation.cpp.s
 .PHONY : ldb_autogen/mocs_compilation.cpp.s
 
 rocksdb_dump_autogen/mocs_compilation.o: rocksdb_dump_autogen/mocs_compilation.cpp.o
@@ -702,7 +702,7 @@ rocksdb_dump_autogen/mocs_compilation.o: rocksdb_dump_autogen/mocs_compilation.c
 
 # target to build an object file
 rocksdb_dump_autogen/mocs_compilation.cpp.o:
-	cd /home/ubuntu1/Dosh-QT-GUI-Wallet && $(MAKE) -f cryptonote/external/rocksdb/tools/CMakeFiles/rocksdb_dump.dir/build.make cryptonote/external/rocksdb/tools/CMakeFiles/rocksdb_dump.dir/rocksdb_dump_autogen/mocs_compilation.cpp.o
+	cd /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui && $(MAKE) -f cryptonote/external/rocksdb/tools/CMakeFiles/rocksdb_dump.dir/build.make cryptonote/external/rocksdb/tools/CMakeFiles/rocksdb_dump.dir/rocksdb_dump_autogen/mocs_compilation.cpp.o
 .PHONY : rocksdb_dump_autogen/mocs_compilation.cpp.o
 
 rocksdb_dump_autogen/mocs_compilation.i: rocksdb_dump_autogen/mocs_compilation.cpp.i
@@ -711,7 +711,7 @@ rocksdb_dump_autogen/mocs_compilation.i: rocksdb_dump_autogen/mocs_compilation.c
 
 # target to preprocess a source file
 rocksdb_dump_autogen/mocs_compilation.cpp.i:
-	cd /home/ubuntu1/Dosh-QT-GUI-Wallet && $(MAKE) -f cryptonote/external/rocksdb/tools/CMakeFiles/rocksdb_dump.dir/build.make cryptonote/external/rocksdb/tools/CMakeFiles/rocksdb_dump.dir/rocksdb_dump_autogen/mocs_compilation.cpp.i
+	cd /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui && $(MAKE) -f cryptonote/external/rocksdb/tools/CMakeFiles/rocksdb_dump.dir/build.make cryptonote/external/rocksdb/tools/CMakeFiles/rocksdb_dump.dir/rocksdb_dump_autogen/mocs_compilation.cpp.i
 .PHONY : rocksdb_dump_autogen/mocs_compilation.cpp.i
 
 rocksdb_dump_autogen/mocs_compilation.s: rocksdb_dump_autogen/mocs_compilation.cpp.s
@@ -720,7 +720,7 @@ rocksdb_dump_autogen/mocs_compilation.s: rocksdb_dump_autogen/mocs_compilation.c
 
 # target to generate assembly for a file
 rocksdb_dump_autogen/mocs_compilation.cpp.s:
-	cd /home/ubuntu1/Dosh-QT-GUI-Wallet && $(MAKE) -f cryptonote/external/rocksdb/tools/CMakeFiles/rocksdb_dump.dir/build.make cryptonote/external/rocksdb/tools/CMakeFiles/rocksdb_dump.dir/rocksdb_dump_autogen/mocs_compilation.cpp.s
+	cd /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui && $(MAKE) -f cryptonote/external/rocksdb/tools/CMakeFiles/rocksdb_dump.dir/build.make cryptonote/external/rocksdb/tools/CMakeFiles/rocksdb_dump.dir/rocksdb_dump_autogen/mocs_compilation.cpp.s
 .PHONY : rocksdb_dump_autogen/mocs_compilation.cpp.s
 
 rocksdb_undump_autogen/mocs_compilation.o: rocksdb_undump_autogen/mocs_compilation.cpp.o
@@ -729,7 +729,7 @@ rocksdb_undump_autogen/mocs_compilation.o: rocksdb_undump_autogen/mocs_compilati
 
 # target to build an object file
 rocksdb_undump_autogen/mocs_compilation.cpp.o:
-	cd /home/ubuntu1/Dosh-QT-GUI-Wallet && $(MAKE) -f cryptonote/external/rocksdb/tools/CMakeFiles/rocksdb_undump.dir/build.make cryptonote/external/rocksdb/tools/CMakeFiles/rocksdb_undump.dir/rocksdb_undump_autogen/mocs_compilation.cpp.o
+	cd /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui && $(MAKE) -f cryptonote/external/rocksdb/tools/CMakeFiles/rocksdb_undump.dir/build.make cryptonote/external/rocksdb/tools/CMakeFiles/rocksdb_undump.dir/rocksdb_undump_autogen/mocs_compilation.cpp.o
 .PHONY : rocksdb_undump_autogen/mocs_compilation.cpp.o
 
 rocksdb_undump_autogen/mocs_compilation.i: rocksdb_undump_autogen/mocs_compilation.cpp.i
@@ -738,7 +738,7 @@ rocksdb_undump_autogen/mocs_compilation.i: rocksdb_undump_autogen/mocs_compilati
 
 # target to preprocess a source file
 rocksdb_undump_autogen/mocs_compilation.cpp.i:
-	cd /home/ubuntu1/Dosh-QT-GUI-Wallet && $(MAKE) -f cryptonote/external/rocksdb/tools/CMakeFiles/rocksdb_undump.dir/build.make cryptonote/external/rocksdb/tools/CMakeFiles/rocksdb_undump.dir/rocksdb_undump_autogen/mocs_compilation.cpp.i
+	cd /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui && $(MAKE) -f cryptonote/external/rocksdb/tools/CMakeFiles/rocksdb_undump.dir/build.make cryptonote/external/rocksdb/tools/CMakeFiles/rocksdb_undump.dir/rocksdb_undump_autogen/mocs_compilation.cpp.i
 .PHONY : rocksdb_undump_autogen/mocs_compilation.cpp.i
 
 rocksdb_undump_autogen/mocs_compilation.s: rocksdb_undump_autogen/mocs_compilation.cpp.s
@@ -747,7 +747,7 @@ rocksdb_undump_autogen/mocs_compilation.s: rocksdb_undump_autogen/mocs_compilati
 
 # target to generate assembly for a file
 rocksdb_undump_autogen/mocs_compilation.cpp.s:
-	cd /home/ubuntu1/Dosh-QT-GUI-Wallet && $(MAKE) -f cryptonote/external/rocksdb/tools/CMakeFiles/rocksdb_undump.dir/build.make cryptonote/external/rocksdb/tools/CMakeFiles/rocksdb_undump.dir/rocksdb_undump_autogen/mocs_compilation.cpp.s
+	cd /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui && $(MAKE) -f cryptonote/external/rocksdb/tools/CMakeFiles/rocksdb_undump.dir/build.make cryptonote/external/rocksdb/tools/CMakeFiles/rocksdb_undump.dir/rocksdb_undump_autogen/mocs_compilation.cpp.s
 .PHONY : rocksdb_undump_autogen/mocs_compilation.cpp.s
 
 sst_dump.o: sst_dump.cc.o
@@ -756,7 +756,7 @@ sst_dump.o: sst_dump.cc.o
 
 # target to build an object file
 sst_dump.cc.o:
-	cd /home/ubuntu1/Dosh-QT-GUI-Wallet && $(MAKE) -f cryptonote/external/rocksdb/tools/CMakeFiles/sst_dump.dir/build.make cryptonote/external/rocksdb/tools/CMakeFiles/sst_dump.dir/sst_dump.cc.o
+	cd /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui && $(MAKE) -f cryptonote/external/rocksdb/tools/CMakeFiles/sst_dump.dir/build.make cryptonote/external/rocksdb/tools/CMakeFiles/sst_dump.dir/sst_dump.cc.o
 .PHONY : sst_dump.cc.o
 
 sst_dump.i: sst_dump.cc.i
@@ -765,7 +765,7 @@ sst_dump.i: sst_dump.cc.i
 
 # target to preprocess a source file
 sst_dump.cc.i:
-	cd /home/ubuntu1/Dosh-QT-GUI-Wallet && $(MAKE) -f cryptonote/external/rocksdb/tools/CMakeFiles/sst_dump.dir/build.make cryptonote/external/rocksdb/tools/CMakeFiles/sst_dump.dir/sst_dump.cc.i
+	cd /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui && $(MAKE) -f cryptonote/external/rocksdb/tools/CMakeFiles/sst_dump.dir/build.make cryptonote/external/rocksdb/tools/CMakeFiles/sst_dump.dir/sst_dump.cc.i
 .PHONY : sst_dump.cc.i
 
 sst_dump.s: sst_dump.cc.s
@@ -774,7 +774,7 @@ sst_dump.s: sst_dump.cc.s
 
 # target to generate assembly for a file
 sst_dump.cc.s:
-	cd /home/ubuntu1/Dosh-QT-GUI-Wallet && $(MAKE) -f cryptonote/external/rocksdb/tools/CMakeFiles/sst_dump.dir/build.make cryptonote/external/rocksdb/tools/CMakeFiles/sst_dump.dir/sst_dump.cc.s
+	cd /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui && $(MAKE) -f cryptonote/external/rocksdb/tools/CMakeFiles/sst_dump.dir/build.make cryptonote/external/rocksdb/tools/CMakeFiles/sst_dump.dir/sst_dump.cc.s
 .PHONY : sst_dump.cc.s
 
 sst_dump_autogen/mocs_compilation.o: sst_dump_autogen/mocs_compilation.cpp.o
@@ -783,7 +783,7 @@ sst_dump_autogen/mocs_compilation.o: sst_dump_autogen/mocs_compilation.cpp.o
 
 # target to build an object file
 sst_dump_autogen/mocs_compilation.cpp.o:
-	cd /home/ubuntu1/Dosh-QT-GUI-Wallet && $(MAKE) -f cryptonote/external/rocksdb/tools/CMakeFiles/sst_dump.dir/build.make cryptonote/external/rocksdb/tools/CMakeFiles/sst_dump.dir/sst_dump_autogen/mocs_compilation.cpp.o
+	cd /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui && $(MAKE) -f cryptonote/external/rocksdb/tools/CMakeFiles/sst_dump.dir/build.make cryptonote/external/rocksdb/tools/CMakeFiles/sst_dump.dir/sst_dump_autogen/mocs_compilation.cpp.o
 .PHONY : sst_dump_autogen/mocs_compilation.cpp.o
 
 sst_dump_autogen/mocs_compilation.i: sst_dump_autogen/mocs_compilation.cpp.i
@@ -792,7 +792,7 @@ sst_dump_autogen/mocs_compilation.i: sst_dump_autogen/mocs_compilation.cpp.i
 
 # target to preprocess a source file
 sst_dump_autogen/mocs_compilation.cpp.i:
-	cd /home/ubuntu1/Dosh-QT-GUI-Wallet && $(MAKE) -f cryptonote/external/rocksdb/tools/CMakeFiles/sst_dump.dir/build.make cryptonote/external/rocksdb/tools/CMakeFiles/sst_dump.dir/sst_dump_autogen/mocs_compilation.cpp.i
+	cd /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui && $(MAKE) -f cryptonote/external/rocksdb/tools/CMakeFiles/sst_dump.dir/build.make cryptonote/external/rocksdb/tools/CMakeFiles/sst_dump.dir/sst_dump_autogen/mocs_compilation.cpp.i
 .PHONY : sst_dump_autogen/mocs_compilation.cpp.i
 
 sst_dump_autogen/mocs_compilation.s: sst_dump_autogen/mocs_compilation.cpp.s
@@ -801,7 +801,7 @@ sst_dump_autogen/mocs_compilation.s: sst_dump_autogen/mocs_compilation.cpp.s
 
 # target to generate assembly for a file
 sst_dump_autogen/mocs_compilation.cpp.s:
-	cd /home/ubuntu1/Dosh-QT-GUI-Wallet && $(MAKE) -f cryptonote/external/rocksdb/tools/CMakeFiles/sst_dump.dir/build.make cryptonote/external/rocksdb/tools/CMakeFiles/sst_dump.dir/sst_dump_autogen/mocs_compilation.cpp.s
+	cd /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui && $(MAKE) -f cryptonote/external/rocksdb/tools/CMakeFiles/sst_dump.dir/build.make cryptonote/external/rocksdb/tools/CMakeFiles/sst_dump.dir/sst_dump_autogen/mocs_compilation.cpp.s
 .PHONY : sst_dump_autogen/mocs_compilation.cpp.s
 
 write_stress.o: write_stress.cc.o
@@ -810,7 +810,7 @@ write_stress.o: write_stress.cc.o
 
 # target to build an object file
 write_stress.cc.o:
-	cd /home/ubuntu1/Dosh-QT-GUI-Wallet && $(MAKE) -f cryptonote/external/rocksdb/tools/CMakeFiles/write_stress.dir/build.make cryptonote/external/rocksdb/tools/CMakeFiles/write_stress.dir/write_stress.cc.o
+	cd /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui && $(MAKE) -f cryptonote/external/rocksdb/tools/CMakeFiles/write_stress.dir/build.make cryptonote/external/rocksdb/tools/CMakeFiles/write_stress.dir/write_stress.cc.o
 .PHONY : write_stress.cc.o
 
 write_stress.i: write_stress.cc.i
@@ -819,7 +819,7 @@ write_stress.i: write_stress.cc.i
 
 # target to preprocess a source file
 write_stress.cc.i:
-	cd /home/ubuntu1/Dosh-QT-GUI-Wallet && $(MAKE) -f cryptonote/external/rocksdb/tools/CMakeFiles/write_stress.dir/build.make cryptonote/external/rocksdb/tools/CMakeFiles/write_stress.dir/write_stress.cc.i
+	cd /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui && $(MAKE) -f cryptonote/external/rocksdb/tools/CMakeFiles/write_stress.dir/build.make cryptonote/external/rocksdb/tools/CMakeFiles/write_stress.dir/write_stress.cc.i
 .PHONY : write_stress.cc.i
 
 write_stress.s: write_stress.cc.s
@@ -828,7 +828,7 @@ write_stress.s: write_stress.cc.s
 
 # target to generate assembly for a file
 write_stress.cc.s:
-	cd /home/ubuntu1/Dosh-QT-GUI-Wallet && $(MAKE) -f cryptonote/external/rocksdb/tools/CMakeFiles/write_stress.dir/build.make cryptonote/external/rocksdb/tools/CMakeFiles/write_stress.dir/write_stress.cc.s
+	cd /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui && $(MAKE) -f cryptonote/external/rocksdb/tools/CMakeFiles/write_stress.dir/build.make cryptonote/external/rocksdb/tools/CMakeFiles/write_stress.dir/write_stress.cc.s
 .PHONY : write_stress.cc.s
 
 write_stress_autogen/mocs_compilation.o: write_stress_autogen/mocs_compilation.cpp.o
@@ -837,7 +837,7 @@ write_stress_autogen/mocs_compilation.o: write_stress_autogen/mocs_compilation.c
 
 # target to build an object file
 write_stress_autogen/mocs_compilation.cpp.o:
-	cd /home/ubuntu1/Dosh-QT-GUI-Wallet && $(MAKE) -f cryptonote/external/rocksdb/tools/CMakeFiles/write_stress.dir/build.make cryptonote/external/rocksdb/tools/CMakeFiles/write_stress.dir/write_stress_autogen/mocs_compilation.cpp.o
+	cd /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui && $(MAKE) -f cryptonote/external/rocksdb/tools/CMakeFiles/write_stress.dir/build.make cryptonote/external/rocksdb/tools/CMakeFiles/write_stress.dir/write_stress_autogen/mocs_compilation.cpp.o
 .PHONY : write_stress_autogen/mocs_compilation.cpp.o
 
 write_stress_autogen/mocs_compilation.i: write_stress_autogen/mocs_compilation.cpp.i
@@ -846,7 +846,7 @@ write_stress_autogen/mocs_compilation.i: write_stress_autogen/mocs_compilation.c
 
 # target to preprocess a source file
 write_stress_autogen/mocs_compilation.cpp.i:
-	cd /home/ubuntu1/Dosh-QT-GUI-Wallet && $(MAKE) -f cryptonote/external/rocksdb/tools/CMakeFiles/write_stress.dir/build.make cryptonote/external/rocksdb/tools/CMakeFiles/write_stress.dir/write_stress_autogen/mocs_compilation.cpp.i
+	cd /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui && $(MAKE) -f cryptonote/external/rocksdb/tools/CMakeFiles/write_stress.dir/build.make cryptonote/external/rocksdb/tools/CMakeFiles/write_stress.dir/write_stress_autogen/mocs_compilation.cpp.i
 .PHONY : write_stress_autogen/mocs_compilation.cpp.i
 
 write_stress_autogen/mocs_compilation.s: write_stress_autogen/mocs_compilation.cpp.s
@@ -855,7 +855,7 @@ write_stress_autogen/mocs_compilation.s: write_stress_autogen/mocs_compilation.c
 
 # target to generate assembly for a file
 write_stress_autogen/mocs_compilation.cpp.s:
-	cd /home/ubuntu1/Dosh-QT-GUI-Wallet && $(MAKE) -f cryptonote/external/rocksdb/tools/CMakeFiles/write_stress.dir/build.make cryptonote/external/rocksdb/tools/CMakeFiles/write_stress.dir/write_stress_autogen/mocs_compilation.cpp.s
+	cd /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui && $(MAKE) -f cryptonote/external/rocksdb/tools/CMakeFiles/write_stress.dir/build.make cryptonote/external/rocksdb/tools/CMakeFiles/write_stress.dir/write_stress_autogen/mocs_compilation.cpp.s
 .PHONY : write_stress_autogen/mocs_compilation.cpp.s
 
 # Help Target
@@ -947,6 +947,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/ubuntu1/Dosh-QT-GUI-Wallet && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -60,8 +60,8 @@ namespace WalletGui {
 namespace {
 
 const int MAX_RECENT_WALLET_COUNT = 10;
-const char COMMUNITY_FORUM_URL[] = "https://discord.gg/TxJtH5F";
-const char REPORT_ISSUE_URL[] = "https://mydosh.org";
+const char COMMUNITY_FORUM_URL[] = "https://t.me/doshcurrency";
+const char REPORT_ISSUE_URL[] = "https://getdosh.org";
 
 const char DONATION_URL_DONATION_TAG[] = "donation";
 const char DONATION_URL_LABEL_TAG[] = "label";

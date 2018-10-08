@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu1/Dosh-QT-GUI-Wallet
+CMAKE_SOURCE_DIR = /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu1/Dosh-QT-GUI-Wallet
+CMAKE_BINARY_DIR = /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,14 +126,14 @@ install/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/ubuntu1/Dosh-QT-GUI-Wallet && $(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu1/Dosh-QT-GUI-Wallet/CMakeFiles /home/ubuntu1/Dosh-QT-GUI-Wallet/cryptonote/external/rocksdb/third-party/gtest-1.7.0/fused-src/gtest/CMakeFiles/progress.marks
-	cd /home/ubuntu1/Dosh-QT-GUI-Wallet && $(MAKE) -f CMakeFiles/Makefile2 cryptonote/external/rocksdb/third-party/gtest-1.7.0/fused-src/gtest/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu1/Dosh-QT-GUI-Wallet/CMakeFiles 0
+	cd /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui && $(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/CMakeFiles /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/cryptonote/external/rocksdb/third-party/gtest-1.7.0/fused-src/gtest/CMakeFiles/progress.marks
+	cd /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui && $(MAKE) -f CMakeFiles/Makefile2 cryptonote/external/rocksdb/third-party/gtest-1.7.0/fused-src/gtest/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/ubuntu1/Dosh-QT-GUI-Wallet && $(MAKE) -f CMakeFiles/Makefile2 cryptonote/external/rocksdb/third-party/gtest-1.7.0/fused-src/gtest/clean
+	cd /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui && $(MAKE) -f CMakeFiles/Makefile2 cryptonote/external/rocksdb/third-party/gtest-1.7.0/fused-src/gtest/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,22 +143,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/ubuntu1/Dosh-QT-GUI-Wallet && $(MAKE) -f CMakeFiles/Makefile2 cryptonote/external/rocksdb/third-party/gtest-1.7.0/fused-src/gtest/preinstall
+	cd /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui && $(MAKE) -f CMakeFiles/Makefile2 cryptonote/external/rocksdb/third-party/gtest-1.7.0/fused-src/gtest/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/ubuntu1/Dosh-QT-GUI-Wallet && $(MAKE) -f CMakeFiles/Makefile2 cryptonote/external/rocksdb/third-party/gtest-1.7.0/fused-src/gtest/preinstall
+	cd /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui && $(MAKE) -f CMakeFiles/Makefile2 cryptonote/external/rocksdb/third-party/gtest-1.7.0/fused-src/gtest/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/ubuntu1/Dosh-QT-GUI-Wallet && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 cryptonote/external/rocksdb/third-party/gtest-1.7.0/fused-src/gtest/CMakeFiles/gtest.dir/rule:
-	cd /home/ubuntu1/Dosh-QT-GUI-Wallet && $(MAKE) -f CMakeFiles/Makefile2 cryptonote/external/rocksdb/third-party/gtest-1.7.0/fused-src/gtest/CMakeFiles/gtest.dir/rule
+	cd /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui && $(MAKE) -f CMakeFiles/Makefile2 cryptonote/external/rocksdb/third-party/gtest-1.7.0/fused-src/gtest/CMakeFiles/gtest.dir/rule
 .PHONY : cryptonote/external/rocksdb/third-party/gtest-1.7.0/fused-src/gtest/CMakeFiles/gtest.dir/rule
 
 # Convenience name for target.
@@ -168,12 +168,12 @@ gtest: cryptonote/external/rocksdb/third-party/gtest-1.7.0/fused-src/gtest/CMake
 
 # fast build rule for target.
 gtest/fast:
-	cd /home/ubuntu1/Dosh-QT-GUI-Wallet && $(MAKE) -f cryptonote/external/rocksdb/third-party/gtest-1.7.0/fused-src/gtest/CMakeFiles/gtest.dir/build.make cryptonote/external/rocksdb/third-party/gtest-1.7.0/fused-src/gtest/CMakeFiles/gtest.dir/build
+	cd /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui && $(MAKE) -f cryptonote/external/rocksdb/third-party/gtest-1.7.0/fused-src/gtest/CMakeFiles/gtest.dir/build.make cryptonote/external/rocksdb/third-party/gtest-1.7.0/fused-src/gtest/CMakeFiles/gtest.dir/build
 .PHONY : gtest/fast
 
 # Convenience name for target.
 cryptonote/external/rocksdb/third-party/gtest-1.7.0/fused-src/gtest/CMakeFiles/gtest_autogen.dir/rule:
-	cd /home/ubuntu1/Dosh-QT-GUI-Wallet && $(MAKE) -f CMakeFiles/Makefile2 cryptonote/external/rocksdb/third-party/gtest-1.7.0/fused-src/gtest/CMakeFiles/gtest_autogen.dir/rule
+	cd /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui && $(MAKE) -f CMakeFiles/Makefile2 cryptonote/external/rocksdb/third-party/gtest-1.7.0/fused-src/gtest/CMakeFiles/gtest_autogen.dir/rule
 .PHONY : cryptonote/external/rocksdb/third-party/gtest-1.7.0/fused-src/gtest/CMakeFiles/gtest_autogen.dir/rule
 
 # Convenience name for target.
@@ -183,7 +183,7 @@ gtest_autogen: cryptonote/external/rocksdb/third-party/gtest-1.7.0/fused-src/gte
 
 # fast build rule for target.
 gtest_autogen/fast:
-	cd /home/ubuntu1/Dosh-QT-GUI-Wallet && $(MAKE) -f cryptonote/external/rocksdb/third-party/gtest-1.7.0/fused-src/gtest/CMakeFiles/gtest_autogen.dir/build.make cryptonote/external/rocksdb/third-party/gtest-1.7.0/fused-src/gtest/CMakeFiles/gtest_autogen.dir/build
+	cd /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui && $(MAKE) -f cryptonote/external/rocksdb/third-party/gtest-1.7.0/fused-src/gtest/CMakeFiles/gtest_autogen.dir/build.make cryptonote/external/rocksdb/third-party/gtest-1.7.0/fused-src/gtest/CMakeFiles/gtest_autogen.dir/build
 .PHONY : gtest_autogen/fast
 
 gtest-all.o: gtest-all.cc.o
@@ -192,7 +192,7 @@ gtest-all.o: gtest-all.cc.o
 
 # target to build an object file
 gtest-all.cc.o:
-	cd /home/ubuntu1/Dosh-QT-GUI-Wallet && $(MAKE) -f cryptonote/external/rocksdb/third-party/gtest-1.7.0/fused-src/gtest/CMakeFiles/gtest.dir/build.make cryptonote/external/rocksdb/third-party/gtest-1.7.0/fused-src/gtest/CMakeFiles/gtest.dir/gtest-all.cc.o
+	cd /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui && $(MAKE) -f cryptonote/external/rocksdb/third-party/gtest-1.7.0/fused-src/gtest/CMakeFiles/gtest.dir/build.make cryptonote/external/rocksdb/third-party/gtest-1.7.0/fused-src/gtest/CMakeFiles/gtest.dir/gtest-all.cc.o
 .PHONY : gtest-all.cc.o
 
 gtest-all.i: gtest-all.cc.i
@@ -201,7 +201,7 @@ gtest-all.i: gtest-all.cc.i
 
 # target to preprocess a source file
 gtest-all.cc.i:
-	cd /home/ubuntu1/Dosh-QT-GUI-Wallet && $(MAKE) -f cryptonote/external/rocksdb/third-party/gtest-1.7.0/fused-src/gtest/CMakeFiles/gtest.dir/build.make cryptonote/external/rocksdb/third-party/gtest-1.7.0/fused-src/gtest/CMakeFiles/gtest.dir/gtest-all.cc.i
+	cd /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui && $(MAKE) -f cryptonote/external/rocksdb/third-party/gtest-1.7.0/fused-src/gtest/CMakeFiles/gtest.dir/build.make cryptonote/external/rocksdb/third-party/gtest-1.7.0/fused-src/gtest/CMakeFiles/gtest.dir/gtest-all.cc.i
 .PHONY : gtest-all.cc.i
 
 gtest-all.s: gtest-all.cc.s
@@ -210,7 +210,7 @@ gtest-all.s: gtest-all.cc.s
 
 # target to generate assembly for a file
 gtest-all.cc.s:
-	cd /home/ubuntu1/Dosh-QT-GUI-Wallet && $(MAKE) -f cryptonote/external/rocksdb/third-party/gtest-1.7.0/fused-src/gtest/CMakeFiles/gtest.dir/build.make cryptonote/external/rocksdb/third-party/gtest-1.7.0/fused-src/gtest/CMakeFiles/gtest.dir/gtest-all.cc.s
+	cd /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui && $(MAKE) -f cryptonote/external/rocksdb/third-party/gtest-1.7.0/fused-src/gtest/CMakeFiles/gtest.dir/build.make cryptonote/external/rocksdb/third-party/gtest-1.7.0/fused-src/gtest/CMakeFiles/gtest.dir/gtest-all.cc.s
 .PHONY : gtest-all.cc.s
 
 gtest_autogen/mocs_compilation.o: gtest_autogen/mocs_compilation.cpp.o
@@ -219,7 +219,7 @@ gtest_autogen/mocs_compilation.o: gtest_autogen/mocs_compilation.cpp.o
 
 # target to build an object file
 gtest_autogen/mocs_compilation.cpp.o:
-	cd /home/ubuntu1/Dosh-QT-GUI-Wallet && $(MAKE) -f cryptonote/external/rocksdb/third-party/gtest-1.7.0/fused-src/gtest/CMakeFiles/gtest.dir/build.make cryptonote/external/rocksdb/third-party/gtest-1.7.0/fused-src/gtest/CMakeFiles/gtest.dir/gtest_autogen/mocs_compilation.cpp.o
+	cd /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui && $(MAKE) -f cryptonote/external/rocksdb/third-party/gtest-1.7.0/fused-src/gtest/CMakeFiles/gtest.dir/build.make cryptonote/external/rocksdb/third-party/gtest-1.7.0/fused-src/gtest/CMakeFiles/gtest.dir/gtest_autogen/mocs_compilation.cpp.o
 .PHONY : gtest_autogen/mocs_compilation.cpp.o
 
 gtest_autogen/mocs_compilation.i: gtest_autogen/mocs_compilation.cpp.i
@@ -228,7 +228,7 @@ gtest_autogen/mocs_compilation.i: gtest_autogen/mocs_compilation.cpp.i
 
 # target to preprocess a source file
 gtest_autogen/mocs_compilation.cpp.i:
-	cd /home/ubuntu1/Dosh-QT-GUI-Wallet && $(MAKE) -f cryptonote/external/rocksdb/third-party/gtest-1.7.0/fused-src/gtest/CMakeFiles/gtest.dir/build.make cryptonote/external/rocksdb/third-party/gtest-1.7.0/fused-src/gtest/CMakeFiles/gtest.dir/gtest_autogen/mocs_compilation.cpp.i
+	cd /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui && $(MAKE) -f cryptonote/external/rocksdb/third-party/gtest-1.7.0/fused-src/gtest/CMakeFiles/gtest.dir/build.make cryptonote/external/rocksdb/third-party/gtest-1.7.0/fused-src/gtest/CMakeFiles/gtest.dir/gtest_autogen/mocs_compilation.cpp.i
 .PHONY : gtest_autogen/mocs_compilation.cpp.i
 
 gtest_autogen/mocs_compilation.s: gtest_autogen/mocs_compilation.cpp.s
@@ -237,7 +237,7 @@ gtest_autogen/mocs_compilation.s: gtest_autogen/mocs_compilation.cpp.s
 
 # target to generate assembly for a file
 gtest_autogen/mocs_compilation.cpp.s:
-	cd /home/ubuntu1/Dosh-QT-GUI-Wallet && $(MAKE) -f cryptonote/external/rocksdb/third-party/gtest-1.7.0/fused-src/gtest/CMakeFiles/gtest.dir/build.make cryptonote/external/rocksdb/third-party/gtest-1.7.0/fused-src/gtest/CMakeFiles/gtest.dir/gtest_autogen/mocs_compilation.cpp.s
+	cd /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui && $(MAKE) -f cryptonote/external/rocksdb/third-party/gtest-1.7.0/fused-src/gtest/CMakeFiles/gtest.dir/build.make cryptonote/external/rocksdb/third-party/gtest-1.7.0/fused-src/gtest/CMakeFiles/gtest.dir/gtest_autogen/mocs_compilation.cpp.s
 .PHONY : gtest_autogen/mocs_compilation.cpp.s
 
 # Help Target
@@ -271,6 +271,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/ubuntu1/Dosh-QT-GUI-Wallet && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

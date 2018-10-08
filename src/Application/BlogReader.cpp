@@ -34,7 +34,7 @@ namespace WalletGui {
 namespace {
 
 const char BLOG_RSS_SCHEME[] = "https";
-const char BLOG_RSS_HOST[] = "www.mydosh.org";
+const char BLOG_RSS_HOST[] = "www.getdosh.org";
 const char BLOG_RSS_PATH[] = "/category/news/";
 
 const char BLOG_RSS_ID_TAG_NAME[] = "id";

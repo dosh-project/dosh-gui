@@ -1,12 +1,12 @@
 Forked by:
-Portions Copyright (c) 2018, The Intense Coin developers 
-Copyright (c) 2014-2017, The Monero Project Portions 
+Portions Copyright (c) 2018, The Intense Coin developers
+Copyright (c) 2014-2017, The Monero Project Portions
 Copyright (c) 2012-2013, The Cryptonote developers
 Copyright (c) 2018, The DOSH developers
 
 # DOSH
 
-Dosh endeavours to help non-governmental charities reach their goals, mainly focused on disaster charities and children’s charities. 
+Dosh endeavours to help non-governmental charities reach their goals, mainly focused on disaster charities and children’s charities.
 
 -= Building DOSH GUI =-
 
@@ -57,14 +57,11 @@ And then build from within MSVC.
 
 
 ## Resources
-* [Oficial website](https://mydosh.org/)
-* [Pool Oficial](http://pool.mydosh.org)
+* [Official website](https://getdosh.org/)
 
 ## Social
-* [Facebook](https://www.facebook.com/mydosh)
-* [Twitter](https://twitter.com/Dosh)
-* [Discord](https://discord.gg/TxJtH5F )
-* [Telegram](https://t.me/doshtoken)
+* [Twitter](https://twitter.com/doshcurrency)
+* [Telegram](https://t.me/doshcurrency)
 
 ## License
 GNU General Public License v3.0

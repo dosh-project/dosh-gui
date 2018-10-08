@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/ubuntu1/Dosh-QT-GUI-Wallet/cryptonote/external/miniupnpc/bsdqueue.h
+/home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/cryptonote/external/miniupnpc/bsdqueue.h
 
-/home/ubuntu1/Dosh-QT-GUI-Wallet/cryptonote/external/miniupnpc/codelength.h
+/home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/cryptonote/external/miniupnpc/codelength.h
 
-/home/ubuntu1/Dosh-QT-GUI-Wallet/cryptonote/external/miniupnpc/connecthostport.c
+/home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/cryptonote/external/miniupnpc/connecthostport.c
 string.h
 -
 stdio.h
@@ -40,23 +40,23 @@ sys/socket.h
 sys/select.h
 -
 connecthostport.h
-/home/ubuntu1/Dosh-QT-GUI-Wallet/cryptonote/external/miniupnpc/connecthostport.h
+/home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/cryptonote/external/miniupnpc/connecthostport.h
 
-/home/ubuntu1/Dosh-QT-GUI-Wallet/cryptonote/external/miniupnpc/connecthostport.h
+/home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/cryptonote/external/miniupnpc/connecthostport.h
 
-/home/ubuntu1/Dosh-QT-GUI-Wallet/cryptonote/external/miniupnpc/declspec.h
+/home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/cryptonote/external/miniupnpc/declspec.h
 
-/home/ubuntu1/Dosh-QT-GUI-Wallet/cryptonote/external/miniupnpc/igd_desc_parse.c
+/home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/cryptonote/external/miniupnpc/igd_desc_parse.c
 igd_desc_parse.h
-/home/ubuntu1/Dosh-QT-GUI-Wallet/cryptonote/external/miniupnpc/igd_desc_parse.h
+/home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/cryptonote/external/miniupnpc/igd_desc_parse.h
 stdio.h
 -
 string.h
 -
 
-/home/ubuntu1/Dosh-QT-GUI-Wallet/cryptonote/external/miniupnpc/igd_desc_parse.h
+/home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/cryptonote/external/miniupnpc/igd_desc_parse.h
 
-/home/ubuntu1/Dosh-QT-GUI-Wallet/cryptonote/external/miniupnpc/minisoap.c
+/home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/cryptonote/external/miniupnpc/minisoap.c
 stdio.h
 -
 string.h
@@ -72,15 +72,15 @@ sys/types.h
 sys/socket.h
 -
 minisoap.h
-/home/ubuntu1/Dosh-QT-GUI-Wallet/cryptonote/external/miniupnpc/minisoap.h
+/home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/cryptonote/external/miniupnpc/minisoap.h
 miniupnpcstrings.h
-/home/ubuntu1/Dosh-QT-GUI-Wallet/cryptonote/external/miniupnpc/miniupnpcstrings.h
+/home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/cryptonote/external/miniupnpc/miniupnpcstrings.h
 stdlib.h
 -
 
-/home/ubuntu1/Dosh-QT-GUI-Wallet/cryptonote/external/miniupnpc/minisoap.h
+/home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/cryptonote/external/miniupnpc/minisoap.h
 
-/home/ubuntu1/Dosh-QT-GUI-Wallet/cryptonote/external/miniupnpc/minissdpc.c
+/home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/cryptonote/external/miniupnpc/minissdpc.c
 stdio.h
 -
 string.h
@@ -108,15 +108,15 @@ sys/socket.h
 sys/un.h
 -
 minissdpc.h
-/home/ubuntu1/Dosh-QT-GUI-Wallet/cryptonote/external/miniupnpc/minissdpc.h
+/home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/cryptonote/external/miniupnpc/minissdpc.h
 miniupnpc.h
-/home/ubuntu1/Dosh-QT-GUI-Wallet/cryptonote/external/miniupnpc/miniupnpc.h
+/home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/cryptonote/external/miniupnpc/miniupnpc.h
 codelength.h
-/home/ubuntu1/Dosh-QT-GUI-Wallet/cryptonote/external/miniupnpc/codelength.h
+/home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/cryptonote/external/miniupnpc/codelength.h
 
-/home/ubuntu1/Dosh-QT-GUI-Wallet/cryptonote/external/miniupnpc/minissdpc.h
+/home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/cryptonote/external/miniupnpc/minissdpc.h
 
-/home/ubuntu1/Dosh-QT-GUI-Wallet/cryptonote/external/miniupnpc/miniupnpc.c
+/home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/cryptonote/external/miniupnpc/miniupnpc.c
 stdlib.h
 -
 stdio.h
@@ -158,31 +158,31 @@ errno.h
 sys/time.h
 -
 miniupnpc.h
-/home/ubuntu1/Dosh-QT-GUI-Wallet/cryptonote/external/miniupnpc/miniupnpc.h
+/home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/cryptonote/external/miniupnpc/miniupnpc.h
 minissdpc.h
-/home/ubuntu1/Dosh-QT-GUI-Wallet/cryptonote/external/miniupnpc/minissdpc.h
+/home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/cryptonote/external/miniupnpc/minissdpc.h
 miniwget.h
-/home/ubuntu1/Dosh-QT-GUI-Wallet/cryptonote/external/miniupnpc/miniwget.h
+/home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/cryptonote/external/miniupnpc/miniwget.h
 minisoap.h
-/home/ubuntu1/Dosh-QT-GUI-Wallet/cryptonote/external/miniupnpc/minisoap.h
+/home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/cryptonote/external/miniupnpc/minisoap.h
 minixml.h
-/home/ubuntu1/Dosh-QT-GUI-Wallet/cryptonote/external/miniupnpc/minixml.h
+/home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/cryptonote/external/miniupnpc/minixml.h
 upnpcommands.h
-/home/ubuntu1/Dosh-QT-GUI-Wallet/cryptonote/external/miniupnpc/upnpcommands.h
+/home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/cryptonote/external/miniupnpc/upnpcommands.h
 connecthostport.h
-/home/ubuntu1/Dosh-QT-GUI-Wallet/cryptonote/external/miniupnpc/connecthostport.h
+/home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/cryptonote/external/miniupnpc/connecthostport.h
 receivedata.h
-/home/ubuntu1/Dosh-QT-GUI-Wallet/cryptonote/external/miniupnpc/receivedata.h
+/home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/cryptonote/external/miniupnpc/receivedata.h
 
-/home/ubuntu1/Dosh-QT-GUI-Wallet/cryptonote/external/miniupnpc/miniupnpc.h
+/home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/cryptonote/external/miniupnpc/miniupnpc.h
 declspec.h
-/home/ubuntu1/Dosh-QT-GUI-Wallet/cryptonote/external/miniupnpc/declspec.h
+/home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/cryptonote/external/miniupnpc/declspec.h
 igd_desc_parse.h
-/home/ubuntu1/Dosh-QT-GUI-Wallet/cryptonote/external/miniupnpc/igd_desc_parse.h
+/home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/cryptonote/external/miniupnpc/igd_desc_parse.h
 
-/home/ubuntu1/Dosh-QT-GUI-Wallet/cryptonote/external/miniupnpc/miniupnpctypes.h
+/home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/cryptonote/external/miniupnpc/miniupnpctypes.h
 
-/home/ubuntu1/Dosh-QT-GUI-Wallet/cryptonote/external/miniupnpc/miniwget.c
+/home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/cryptonote/external/miniupnpc/miniwget.c
 stdio.h
 -
 stdlib.h
@@ -214,47 +214,47 @@ net/if.h
 netdb.h
 -
 miniupnpcstrings.h
-/home/ubuntu1/Dosh-QT-GUI-Wallet/cryptonote/external/miniupnpc/miniupnpcstrings.h
+/home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/cryptonote/external/miniupnpc/miniupnpcstrings.h
 miniwget.h
-/home/ubuntu1/Dosh-QT-GUI-Wallet/cryptonote/external/miniupnpc/miniwget.h
+/home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/cryptonote/external/miniupnpc/miniwget.h
 connecthostport.h
-/home/ubuntu1/Dosh-QT-GUI-Wallet/cryptonote/external/miniupnpc/connecthostport.h
+/home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/cryptonote/external/miniupnpc/connecthostport.h
 receivedata.h
-/home/ubuntu1/Dosh-QT-GUI-Wallet/cryptonote/external/miniupnpc/receivedata.h
+/home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/cryptonote/external/miniupnpc/receivedata.h
 
-/home/ubuntu1/Dosh-QT-GUI-Wallet/cryptonote/external/miniupnpc/miniwget.h
+/home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/cryptonote/external/miniupnpc/miniwget.h
 declspec.h
-/home/ubuntu1/Dosh-QT-GUI-Wallet/cryptonote/external/miniupnpc/declspec.h
+/home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/cryptonote/external/miniupnpc/declspec.h
 
-/home/ubuntu1/Dosh-QT-GUI-Wallet/cryptonote/external/miniupnpc/minixml.c
+/home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/cryptonote/external/miniupnpc/minixml.c
 string.h
 -
 minixml.h
-/home/ubuntu1/Dosh-QT-GUI-Wallet/cryptonote/external/miniupnpc/minixml.h
+/home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/cryptonote/external/miniupnpc/minixml.h
 
-/home/ubuntu1/Dosh-QT-GUI-Wallet/cryptonote/external/miniupnpc/minixml.h
+/home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/cryptonote/external/miniupnpc/minixml.h
 
-/home/ubuntu1/Dosh-QT-GUI-Wallet/cryptonote/external/miniupnpc/portlistingparse.c
+/home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/cryptonote/external/miniupnpc/portlistingparse.c
 string.h
 -
 stdlib.h
 -
 portlistingparse.h
-/home/ubuntu1/Dosh-QT-GUI-Wallet/cryptonote/external/miniupnpc/portlistingparse.h
+/home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/cryptonote/external/miniupnpc/portlistingparse.h
 minixml.h
-/home/ubuntu1/Dosh-QT-GUI-Wallet/cryptonote/external/miniupnpc/minixml.h
+/home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/cryptonote/external/miniupnpc/minixml.h
 
-/home/ubuntu1/Dosh-QT-GUI-Wallet/cryptonote/external/miniupnpc/portlistingparse.h
+/home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/cryptonote/external/miniupnpc/portlistingparse.h
 declspec.h
-/home/ubuntu1/Dosh-QT-GUI-Wallet/cryptonote/external/miniupnpc/declspec.h
+/home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/cryptonote/external/miniupnpc/declspec.h
 miniupnpctypes.h
-/home/ubuntu1/Dosh-QT-GUI-Wallet/cryptonote/external/miniupnpc/miniupnpctypes.h
+/home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/cryptonote/external/miniupnpc/miniupnpctypes.h
 bsdqueue.h
-/home/ubuntu1/Dosh-QT-GUI-Wallet/cryptonote/external/miniupnpc/bsdqueue.h
+/home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/cryptonote/external/miniupnpc/bsdqueue.h
 sys/queue.h
 -
 
-/home/ubuntu1/Dosh-QT-GUI-Wallet/cryptonote/external/miniupnpc/receivedata.c
+/home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/cryptonote/external/miniupnpc/receivedata.c
 stdio.h
 -
 winsock2.h
@@ -274,11 +274,11 @@ poll.h
 errno.h
 -
 receivedata.h
-/home/ubuntu1/Dosh-QT-GUI-Wallet/cryptonote/external/miniupnpc/receivedata.h
+/home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/cryptonote/external/miniupnpc/receivedata.h
 
-/home/ubuntu1/Dosh-QT-GUI-Wallet/cryptonote/external/miniupnpc/receivedata.h
+/home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/cryptonote/external/miniupnpc/receivedata.h
 
-/home/ubuntu1/Dosh-QT-GUI-Wallet/cryptonote/external/miniupnpc/upnpc.c
+/home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/cryptonote/external/miniupnpc/upnpc.c
 stdio.h
 -
 stdlib.h
@@ -292,15 +292,15 @@ winsock2.h
 netinet/in.h
 -
 miniwget.h
-/home/ubuntu1/Dosh-QT-GUI-Wallet/cryptonote/external/miniupnpc/miniwget.h
+/home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/cryptonote/external/miniupnpc/miniwget.h
 miniupnpc.h
-/home/ubuntu1/Dosh-QT-GUI-Wallet/cryptonote/external/miniupnpc/miniupnpc.h
+/home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/cryptonote/external/miniupnpc/miniupnpc.h
 upnpcommands.h
-/home/ubuntu1/Dosh-QT-GUI-Wallet/cryptonote/external/miniupnpc/upnpcommands.h
+/home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/cryptonote/external/miniupnpc/upnpcommands.h
 upnperrors.h
-/home/ubuntu1/Dosh-QT-GUI-Wallet/cryptonote/external/miniupnpc/upnperrors.h
+/home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/cryptonote/external/miniupnpc/upnperrors.h
 
-/home/ubuntu1/Dosh-QT-GUI-Wallet/cryptonote/external/miniupnpc/upnpcommands.c
+/home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/cryptonote/external/miniupnpc/upnpcommands.c
 stdlib.h
 -
 stdio.h
@@ -308,37 +308,37 @@ stdio.h
 string.h
 -
 upnpcommands.h
-/home/ubuntu1/Dosh-QT-GUI-Wallet/cryptonote/external/miniupnpc/upnpcommands.h
+/home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/cryptonote/external/miniupnpc/upnpcommands.h
 miniupnpc.h
-/home/ubuntu1/Dosh-QT-GUI-Wallet/cryptonote/external/miniupnpc/miniupnpc.h
+/home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/cryptonote/external/miniupnpc/miniupnpc.h
 portlistingparse.h
-/home/ubuntu1/Dosh-QT-GUI-Wallet/cryptonote/external/miniupnpc/portlistingparse.h
+/home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/cryptonote/external/miniupnpc/portlistingparse.h
 
-/home/ubuntu1/Dosh-QT-GUI-Wallet/cryptonote/external/miniupnpc/upnpcommands.h
+/home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/cryptonote/external/miniupnpc/upnpcommands.h
 upnpreplyparse.h
-/home/ubuntu1/Dosh-QT-GUI-Wallet/cryptonote/external/miniupnpc/upnpreplyparse.h
+/home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/cryptonote/external/miniupnpc/upnpreplyparse.h
 portlistingparse.h
-/home/ubuntu1/Dosh-QT-GUI-Wallet/cryptonote/external/miniupnpc/portlistingparse.h
+/home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/cryptonote/external/miniupnpc/portlistingparse.h
 declspec.h
-/home/ubuntu1/Dosh-QT-GUI-Wallet/cryptonote/external/miniupnpc/declspec.h
+/home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/cryptonote/external/miniupnpc/declspec.h
 miniupnpctypes.h
-/home/ubuntu1/Dosh-QT-GUI-Wallet/cryptonote/external/miniupnpc/miniupnpctypes.h
+/home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/cryptonote/external/miniupnpc/miniupnpctypes.h
 
-/home/ubuntu1/Dosh-QT-GUI-Wallet/cryptonote/external/miniupnpc/upnperrors.c
+/home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/cryptonote/external/miniupnpc/upnperrors.c
 string.h
 -
 upnperrors.h
-/home/ubuntu1/Dosh-QT-GUI-Wallet/cryptonote/external/miniupnpc/upnperrors.h
+/home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/cryptonote/external/miniupnpc/upnperrors.h
 upnpcommands.h
-/home/ubuntu1/Dosh-QT-GUI-Wallet/cryptonote/external/miniupnpc/upnpcommands.h
+/home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/cryptonote/external/miniupnpc/upnpcommands.h
 miniupnpc.h
-/home/ubuntu1/Dosh-QT-GUI-Wallet/cryptonote/external/miniupnpc/miniupnpc.h
+/home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/cryptonote/external/miniupnpc/miniupnpc.h
 
-/home/ubuntu1/Dosh-QT-GUI-Wallet/cryptonote/external/miniupnpc/upnperrors.h
+/home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/cryptonote/external/miniupnpc/upnperrors.h
 declspec.h
-/home/ubuntu1/Dosh-QT-GUI-Wallet/cryptonote/external/miniupnpc/declspec.h
+/home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/cryptonote/external/miniupnpc/declspec.h
 
-/home/ubuntu1/Dosh-QT-GUI-Wallet/cryptonote/external/miniupnpc/upnpreplyparse.c
+/home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/cryptonote/external/miniupnpc/upnpreplyparse.c
 stdlib.h
 -
 string.h
@@ -346,13 +346,13 @@ string.h
 stdio.h
 -
 upnpreplyparse.h
-/home/ubuntu1/Dosh-QT-GUI-Wallet/cryptonote/external/miniupnpc/upnpreplyparse.h
+/home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/cryptonote/external/miniupnpc/upnpreplyparse.h
 minixml.h
-/home/ubuntu1/Dosh-QT-GUI-Wallet/cryptonote/external/miniupnpc/minixml.h
+/home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/cryptonote/external/miniupnpc/minixml.h
 
-/home/ubuntu1/Dosh-QT-GUI-Wallet/cryptonote/external/miniupnpc/upnpreplyparse.h
+/home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/cryptonote/external/miniupnpc/upnpreplyparse.h
 bsdqueue.h
-/home/ubuntu1/Dosh-QT-GUI-Wallet/cryptonote/external/miniupnpc/bsdqueue.h
+/home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/cryptonote/external/miniupnpc/bsdqueue.h
 sys/queue.h
 -
 
