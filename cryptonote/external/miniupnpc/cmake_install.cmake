@@ -1,4 +1,4 @@
-# Install script for directory: /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/cryptonote/external/miniupnpc
+# Install script for directory: /home/ubuntu1/dosh-gui/cryptonote/external/miniupnpc
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -38,18 +38,18 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/cryptonote/external/miniupnpc/libminiupnpc.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/ubuntu1/dosh-gui/cryptonote/external/miniupnpc/libminiupnpc.a")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/miniupnpc" TYPE FILE FILES
-    "/home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/cryptonote/external/miniupnpc/miniupnpc.h"
-    "/home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/cryptonote/external/miniupnpc/miniwget.h"
-    "/home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/cryptonote/external/miniupnpc/upnpcommands.h"
-    "/home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/cryptonote/external/miniupnpc/igd_desc_parse.h"
-    "/home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/cryptonote/external/miniupnpc/upnpreplyparse.h"
-    "/home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/cryptonote/external/miniupnpc/upnperrors.h"
-    "/home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/cryptonote/external/miniupnpc/declspec.h"
+    "/home/ubuntu1/dosh-gui/cryptonote/external/miniupnpc/miniupnpc.h"
+    "/home/ubuntu1/dosh-gui/cryptonote/external/miniupnpc/miniwget.h"
+    "/home/ubuntu1/dosh-gui/cryptonote/external/miniupnpc/upnpcommands.h"
+    "/home/ubuntu1/dosh-gui/cryptonote/external/miniupnpc/igd_desc_parse.h"
+    "/home/ubuntu1/dosh-gui/cryptonote/external/miniupnpc/upnpreplyparse.h"
+    "/home/ubuntu1/dosh-gui/cryptonote/external/miniupnpc/upnperrors.h"
+    "/home/ubuntu1/dosh-gui/cryptonote/external/miniupnpc/declspec.h"
     )
 endif()
 

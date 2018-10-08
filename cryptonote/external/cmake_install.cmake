@@ -1,4 +1,4 @@
-# Install script for directory: /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/cryptonote/external
+# Install script for directory: /home/ubuntu1/dosh-gui/cryptonote/external
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/cryptonote/external/miniupnpc/cmake_install.cmake")
+  include("/home/ubuntu1/dosh-gui/cryptonote/external/miniupnpc/cmake_install.cmake")
 
 endif()
 

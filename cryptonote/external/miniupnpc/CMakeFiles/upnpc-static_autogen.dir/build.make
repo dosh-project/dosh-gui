@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui
+CMAKE_SOURCE_DIR = /home/ubuntu1/dosh-gui
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui
+CMAKE_BINARY_DIR = /home/ubuntu1/dosh-gui
 
 # Utility rule file for upnpc-static_autogen.
 
@@ -54,8 +54,8 @@ CMAKE_BINARY_DIR = /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui
 include cryptonote/external/miniupnpc/CMakeFiles/upnpc-static_autogen.dir/progress.make
 
 cryptonote/external/miniupnpc/CMakeFiles/upnpc-static_autogen:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC for target upnpc-static"
-	cd /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/cryptonote/external/miniupnpc && /usr/bin/cmake -E cmake_autogen /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/cryptonote/external/miniupnpc/CMakeFiles/upnpc-static_autogen.dir RelWithDebInfo
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu1/dosh-gui/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC for target upnpc-static"
+	cd /home/ubuntu1/dosh-gui/cryptonote/external/miniupnpc && /usr/bin/cmake -E cmake_autogen /home/ubuntu1/dosh-gui/cryptonote/external/miniupnpc/CMakeFiles/upnpc-static_autogen.dir RelWithDebInfo
 
 upnpc-static_autogen: cryptonote/external/miniupnpc/CMakeFiles/upnpc-static_autogen
 upnpc-static_autogen: cryptonote/external/miniupnpc/CMakeFiles/upnpc-static_autogen.dir/build.make
@@ -68,10 +68,10 @@ cryptonote/external/miniupnpc/CMakeFiles/upnpc-static_autogen.dir/build: upnpc-s
 .PHONY : cryptonote/external/miniupnpc/CMakeFiles/upnpc-static_autogen.dir/build
 
 cryptonote/external/miniupnpc/CMakeFiles/upnpc-static_autogen.dir/clean:
-	cd /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/cryptonote/external/miniupnpc && $(CMAKE_COMMAND) -P CMakeFiles/upnpc-static_autogen.dir/cmake_clean.cmake
+	cd /home/ubuntu1/dosh-gui/cryptonote/external/miniupnpc && $(CMAKE_COMMAND) -P CMakeFiles/upnpc-static_autogen.dir/cmake_clean.cmake
 .PHONY : cryptonote/external/miniupnpc/CMakeFiles/upnpc-static_autogen.dir/clean
 
 cryptonote/external/miniupnpc/CMakeFiles/upnpc-static_autogen.dir/depend:
-	cd /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/cryptonote/external/miniupnpc /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/cryptonote/external/miniupnpc /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/cryptonote/external/miniupnpc/CMakeFiles/upnpc-static_autogen.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ubuntu1/dosh-gui && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu1/dosh-gui /home/ubuntu1/dosh-gui/cryptonote/external/miniupnpc /home/ubuntu1/dosh-gui /home/ubuntu1/dosh-gui/cryptonote/external/miniupnpc /home/ubuntu1/dosh-gui/cryptonote/external/miniupnpc/CMakeFiles/upnpc-static_autogen.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : cryptonote/external/miniupnpc/CMakeFiles/upnpc-static_autogen.dir/depend
 

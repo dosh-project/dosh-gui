@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui
+CMAKE_SOURCE_DIR = /home/ubuntu1/dosh-gui
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui
+CMAKE_BINARY_DIR = /home/ubuntu1/dosh-gui
 
 # Include any dependencies generated for this target.
 include cryptonote/external/miniupnpc/CMakeFiles/upnpc-static.dir/depend.make
@@ -59,16 +59,16 @@ include cryptonote/external/miniupnpc/CMakeFiles/upnpc-static.dir/flags.make
 
 cryptonote/external/miniupnpc/CMakeFiles/upnpc-static.dir/igd_desc_parse.c.o: cryptonote/external/miniupnpc/CMakeFiles/upnpc-static.dir/flags.make
 cryptonote/external/miniupnpc/CMakeFiles/upnpc-static.dir/igd_desc_parse.c.o: cryptonote/external/miniupnpc/igd_desc_parse.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object cryptonote/external/miniupnpc/CMakeFiles/upnpc-static.dir/igd_desc_parse.c.o"
-	cd /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/cryptonote/external/miniupnpc && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/upnpc-static.dir/igd_desc_parse.c.o   -c /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/cryptonote/external/miniupnpc/igd_desc_parse.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu1/dosh-gui/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object cryptonote/external/miniupnpc/CMakeFiles/upnpc-static.dir/igd_desc_parse.c.o"
+	cd /home/ubuntu1/dosh-gui/cryptonote/external/miniupnpc && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/upnpc-static.dir/igd_desc_parse.c.o   -c /home/ubuntu1/dosh-gui/cryptonote/external/miniupnpc/igd_desc_parse.c
 
 cryptonote/external/miniupnpc/CMakeFiles/upnpc-static.dir/igd_desc_parse.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/upnpc-static.dir/igd_desc_parse.c.i"
-	cd /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/cryptonote/external/miniupnpc && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/cryptonote/external/miniupnpc/igd_desc_parse.c > CMakeFiles/upnpc-static.dir/igd_desc_parse.c.i
+	cd /home/ubuntu1/dosh-gui/cryptonote/external/miniupnpc && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu1/dosh-gui/cryptonote/external/miniupnpc/igd_desc_parse.c > CMakeFiles/upnpc-static.dir/igd_desc_parse.c.i
 
 cryptonote/external/miniupnpc/CMakeFiles/upnpc-static.dir/igd_desc_parse.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/upnpc-static.dir/igd_desc_parse.c.s"
-	cd /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/cryptonote/external/miniupnpc && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/cryptonote/external/miniupnpc/igd_desc_parse.c -o CMakeFiles/upnpc-static.dir/igd_desc_parse.c.s
+	cd /home/ubuntu1/dosh-gui/cryptonote/external/miniupnpc && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu1/dosh-gui/cryptonote/external/miniupnpc/igd_desc_parse.c -o CMakeFiles/upnpc-static.dir/igd_desc_parse.c.s
 
 cryptonote/external/miniupnpc/CMakeFiles/upnpc-static.dir/igd_desc_parse.c.o.requires:
 
@@ -83,16 +83,16 @@ cryptonote/external/miniupnpc/CMakeFiles/upnpc-static.dir/igd_desc_parse.c.o.pro
 
 cryptonote/external/miniupnpc/CMakeFiles/upnpc-static.dir/miniupnpc.c.o: cryptonote/external/miniupnpc/CMakeFiles/upnpc-static.dir/flags.make
 cryptonote/external/miniupnpc/CMakeFiles/upnpc-static.dir/miniupnpc.c.o: cryptonote/external/miniupnpc/miniupnpc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object cryptonote/external/miniupnpc/CMakeFiles/upnpc-static.dir/miniupnpc.c.o"
-	cd /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/cryptonote/external/miniupnpc && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/upnpc-static.dir/miniupnpc.c.o   -c /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/cryptonote/external/miniupnpc/miniupnpc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu1/dosh-gui/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object cryptonote/external/miniupnpc/CMakeFiles/upnpc-static.dir/miniupnpc.c.o"
+	cd /home/ubuntu1/dosh-gui/cryptonote/external/miniupnpc && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/upnpc-static.dir/miniupnpc.c.o   -c /home/ubuntu1/dosh-gui/cryptonote/external/miniupnpc/miniupnpc.c
 
 cryptonote/external/miniupnpc/CMakeFiles/upnpc-static.dir/miniupnpc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/upnpc-static.dir/miniupnpc.c.i"
-	cd /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/cryptonote/external/miniupnpc && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/cryptonote/external/miniupnpc/miniupnpc.c > CMakeFiles/upnpc-static.dir/miniupnpc.c.i
+	cd /home/ubuntu1/dosh-gui/cryptonote/external/miniupnpc && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu1/dosh-gui/cryptonote/external/miniupnpc/miniupnpc.c > CMakeFiles/upnpc-static.dir/miniupnpc.c.i
 
 cryptonote/external/miniupnpc/CMakeFiles/upnpc-static.dir/miniupnpc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/upnpc-static.dir/miniupnpc.c.s"
-	cd /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/cryptonote/external/miniupnpc && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/cryptonote/external/miniupnpc/miniupnpc.c -o CMakeFiles/upnpc-static.dir/miniupnpc.c.s
+	cd /home/ubuntu1/dosh-gui/cryptonote/external/miniupnpc && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu1/dosh-gui/cryptonote/external/miniupnpc/miniupnpc.c -o CMakeFiles/upnpc-static.dir/miniupnpc.c.s
 
 cryptonote/external/miniupnpc/CMakeFiles/upnpc-static.dir/miniupnpc.c.o.requires:
 
@@ -107,16 +107,16 @@ cryptonote/external/miniupnpc/CMakeFiles/upnpc-static.dir/miniupnpc.c.o.provides
 
 cryptonote/external/miniupnpc/CMakeFiles/upnpc-static.dir/minixml.c.o: cryptonote/external/miniupnpc/CMakeFiles/upnpc-static.dir/flags.make
 cryptonote/external/miniupnpc/CMakeFiles/upnpc-static.dir/minixml.c.o: cryptonote/external/miniupnpc/minixml.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object cryptonote/external/miniupnpc/CMakeFiles/upnpc-static.dir/minixml.c.o"
-	cd /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/cryptonote/external/miniupnpc && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/upnpc-static.dir/minixml.c.o   -c /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/cryptonote/external/miniupnpc/minixml.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu1/dosh-gui/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object cryptonote/external/miniupnpc/CMakeFiles/upnpc-static.dir/minixml.c.o"
+	cd /home/ubuntu1/dosh-gui/cryptonote/external/miniupnpc && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/upnpc-static.dir/minixml.c.o   -c /home/ubuntu1/dosh-gui/cryptonote/external/miniupnpc/minixml.c
 
 cryptonote/external/miniupnpc/CMakeFiles/upnpc-static.dir/minixml.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/upnpc-static.dir/minixml.c.i"
-	cd /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/cryptonote/external/miniupnpc && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/cryptonote/external/miniupnpc/minixml.c > CMakeFiles/upnpc-static.dir/minixml.c.i
+	cd /home/ubuntu1/dosh-gui/cryptonote/external/miniupnpc && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu1/dosh-gui/cryptonote/external/miniupnpc/minixml.c > CMakeFiles/upnpc-static.dir/minixml.c.i
 
 cryptonote/external/miniupnpc/CMakeFiles/upnpc-static.dir/minixml.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/upnpc-static.dir/minixml.c.s"
-	cd /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/cryptonote/external/miniupnpc && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/cryptonote/external/miniupnpc/minixml.c -o CMakeFiles/upnpc-static.dir/minixml.c.s
+	cd /home/ubuntu1/dosh-gui/cryptonote/external/miniupnpc && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu1/dosh-gui/cryptonote/external/miniupnpc/minixml.c -o CMakeFiles/upnpc-static.dir/minixml.c.s
 
 cryptonote/external/miniupnpc/CMakeFiles/upnpc-static.dir/minixml.c.o.requires:
 
@@ -131,16 +131,16 @@ cryptonote/external/miniupnpc/CMakeFiles/upnpc-static.dir/minixml.c.o.provides.b
 
 cryptonote/external/miniupnpc/CMakeFiles/upnpc-static.dir/minisoap.c.o: cryptonote/external/miniupnpc/CMakeFiles/upnpc-static.dir/flags.make
 cryptonote/external/miniupnpc/CMakeFiles/upnpc-static.dir/minisoap.c.o: cryptonote/external/miniupnpc/minisoap.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object cryptonote/external/miniupnpc/CMakeFiles/upnpc-static.dir/minisoap.c.o"
-	cd /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/cryptonote/external/miniupnpc && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/upnpc-static.dir/minisoap.c.o   -c /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/cryptonote/external/miniupnpc/minisoap.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu1/dosh-gui/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object cryptonote/external/miniupnpc/CMakeFiles/upnpc-static.dir/minisoap.c.o"
+	cd /home/ubuntu1/dosh-gui/cryptonote/external/miniupnpc && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/upnpc-static.dir/minisoap.c.o   -c /home/ubuntu1/dosh-gui/cryptonote/external/miniupnpc/minisoap.c
 
 cryptonote/external/miniupnpc/CMakeFiles/upnpc-static.dir/minisoap.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/upnpc-static.dir/minisoap.c.i"
-	cd /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/cryptonote/external/miniupnpc && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/cryptonote/external/miniupnpc/minisoap.c > CMakeFiles/upnpc-static.dir/minisoap.c.i
+	cd /home/ubuntu1/dosh-gui/cryptonote/external/miniupnpc && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu1/dosh-gui/cryptonote/external/miniupnpc/minisoap.c > CMakeFiles/upnpc-static.dir/minisoap.c.i
 
 cryptonote/external/miniupnpc/CMakeFiles/upnpc-static.dir/minisoap.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/upnpc-static.dir/minisoap.c.s"
-	cd /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/cryptonote/external/miniupnpc && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/cryptonote/external/miniupnpc/minisoap.c -o CMakeFiles/upnpc-static.dir/minisoap.c.s
+	cd /home/ubuntu1/dosh-gui/cryptonote/external/miniupnpc && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu1/dosh-gui/cryptonote/external/miniupnpc/minisoap.c -o CMakeFiles/upnpc-static.dir/minisoap.c.s
 
 cryptonote/external/miniupnpc/CMakeFiles/upnpc-static.dir/minisoap.c.o.requires:
 
@@ -155,16 +155,16 @@ cryptonote/external/miniupnpc/CMakeFiles/upnpc-static.dir/minisoap.c.o.provides.
 
 cryptonote/external/miniupnpc/CMakeFiles/upnpc-static.dir/miniwget.c.o: cryptonote/external/miniupnpc/CMakeFiles/upnpc-static.dir/flags.make
 cryptonote/external/miniupnpc/CMakeFiles/upnpc-static.dir/miniwget.c.o: cryptonote/external/miniupnpc/miniwget.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object cryptonote/external/miniupnpc/CMakeFiles/upnpc-static.dir/miniwget.c.o"
-	cd /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/cryptonote/external/miniupnpc && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/upnpc-static.dir/miniwget.c.o   -c /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/cryptonote/external/miniupnpc/miniwget.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu1/dosh-gui/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object cryptonote/external/miniupnpc/CMakeFiles/upnpc-static.dir/miniwget.c.o"
+	cd /home/ubuntu1/dosh-gui/cryptonote/external/miniupnpc && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/upnpc-static.dir/miniwget.c.o   -c /home/ubuntu1/dosh-gui/cryptonote/external/miniupnpc/miniwget.c
 
 cryptonote/external/miniupnpc/CMakeFiles/upnpc-static.dir/miniwget.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/upnpc-static.dir/miniwget.c.i"
-	cd /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/cryptonote/external/miniupnpc && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/cryptonote/external/miniupnpc/miniwget.c > CMakeFiles/upnpc-static.dir/miniwget.c.i
+	cd /home/ubuntu1/dosh-gui/cryptonote/external/miniupnpc && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu1/dosh-gui/cryptonote/external/miniupnpc/miniwget.c > CMakeFiles/upnpc-static.dir/miniwget.c.i
 
 cryptonote/external/miniupnpc/CMakeFiles/upnpc-static.dir/miniwget.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/upnpc-static.dir/miniwget.c.s"
-	cd /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/cryptonote/external/miniupnpc && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/cryptonote/external/miniupnpc/miniwget.c -o CMakeFiles/upnpc-static.dir/miniwget.c.s
+	cd /home/ubuntu1/dosh-gui/cryptonote/external/miniupnpc && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu1/dosh-gui/cryptonote/external/miniupnpc/miniwget.c -o CMakeFiles/upnpc-static.dir/miniwget.c.s
 
 cryptonote/external/miniupnpc/CMakeFiles/upnpc-static.dir/miniwget.c.o.requires:
 
@@ -179,16 +179,16 @@ cryptonote/external/miniupnpc/CMakeFiles/upnpc-static.dir/miniwget.c.o.provides.
 
 cryptonote/external/miniupnpc/CMakeFiles/upnpc-static.dir/upnpc.c.o: cryptonote/external/miniupnpc/CMakeFiles/upnpc-static.dir/flags.make
 cryptonote/external/miniupnpc/CMakeFiles/upnpc-static.dir/upnpc.c.o: cryptonote/external/miniupnpc/upnpc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object cryptonote/external/miniupnpc/CMakeFiles/upnpc-static.dir/upnpc.c.o"
-	cd /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/cryptonote/external/miniupnpc && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/upnpc-static.dir/upnpc.c.o   -c /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/cryptonote/external/miniupnpc/upnpc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu1/dosh-gui/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object cryptonote/external/miniupnpc/CMakeFiles/upnpc-static.dir/upnpc.c.o"
+	cd /home/ubuntu1/dosh-gui/cryptonote/external/miniupnpc && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/upnpc-static.dir/upnpc.c.o   -c /home/ubuntu1/dosh-gui/cryptonote/external/miniupnpc/upnpc.c
 
 cryptonote/external/miniupnpc/CMakeFiles/upnpc-static.dir/upnpc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/upnpc-static.dir/upnpc.c.i"
-	cd /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/cryptonote/external/miniupnpc && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/cryptonote/external/miniupnpc/upnpc.c > CMakeFiles/upnpc-static.dir/upnpc.c.i
+	cd /home/ubuntu1/dosh-gui/cryptonote/external/miniupnpc && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu1/dosh-gui/cryptonote/external/miniupnpc/upnpc.c > CMakeFiles/upnpc-static.dir/upnpc.c.i
 
 cryptonote/external/miniupnpc/CMakeFiles/upnpc-static.dir/upnpc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/upnpc-static.dir/upnpc.c.s"
-	cd /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/cryptonote/external/miniupnpc && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/cryptonote/external/miniupnpc/upnpc.c -o CMakeFiles/upnpc-static.dir/upnpc.c.s
+	cd /home/ubuntu1/dosh-gui/cryptonote/external/miniupnpc && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu1/dosh-gui/cryptonote/external/miniupnpc/upnpc.c -o CMakeFiles/upnpc-static.dir/upnpc.c.s
 
 cryptonote/external/miniupnpc/CMakeFiles/upnpc-static.dir/upnpc.c.o.requires:
 
@@ -203,16 +203,16 @@ cryptonote/external/miniupnpc/CMakeFiles/upnpc-static.dir/upnpc.c.o.provides.bui
 
 cryptonote/external/miniupnpc/CMakeFiles/upnpc-static.dir/upnpcommands.c.o: cryptonote/external/miniupnpc/CMakeFiles/upnpc-static.dir/flags.make
 cryptonote/external/miniupnpc/CMakeFiles/upnpc-static.dir/upnpcommands.c.o: cryptonote/external/miniupnpc/upnpcommands.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object cryptonote/external/miniupnpc/CMakeFiles/upnpc-static.dir/upnpcommands.c.o"
-	cd /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/cryptonote/external/miniupnpc && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/upnpc-static.dir/upnpcommands.c.o   -c /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/cryptonote/external/miniupnpc/upnpcommands.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu1/dosh-gui/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object cryptonote/external/miniupnpc/CMakeFiles/upnpc-static.dir/upnpcommands.c.o"
+	cd /home/ubuntu1/dosh-gui/cryptonote/external/miniupnpc && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/upnpc-static.dir/upnpcommands.c.o   -c /home/ubuntu1/dosh-gui/cryptonote/external/miniupnpc/upnpcommands.c
 
 cryptonote/external/miniupnpc/CMakeFiles/upnpc-static.dir/upnpcommands.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/upnpc-static.dir/upnpcommands.c.i"
-	cd /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/cryptonote/external/miniupnpc && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/cryptonote/external/miniupnpc/upnpcommands.c > CMakeFiles/upnpc-static.dir/upnpcommands.c.i
+	cd /home/ubuntu1/dosh-gui/cryptonote/external/miniupnpc && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu1/dosh-gui/cryptonote/external/miniupnpc/upnpcommands.c > CMakeFiles/upnpc-static.dir/upnpcommands.c.i
 
 cryptonote/external/miniupnpc/CMakeFiles/upnpc-static.dir/upnpcommands.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/upnpc-static.dir/upnpcommands.c.s"
-	cd /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/cryptonote/external/miniupnpc && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/cryptonote/external/miniupnpc/upnpcommands.c -o CMakeFiles/upnpc-static.dir/upnpcommands.c.s
+	cd /home/ubuntu1/dosh-gui/cryptonote/external/miniupnpc && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu1/dosh-gui/cryptonote/external/miniupnpc/upnpcommands.c -o CMakeFiles/upnpc-static.dir/upnpcommands.c.s
 
 cryptonote/external/miniupnpc/CMakeFiles/upnpc-static.dir/upnpcommands.c.o.requires:
 
@@ -227,16 +227,16 @@ cryptonote/external/miniupnpc/CMakeFiles/upnpc-static.dir/upnpcommands.c.o.provi
 
 cryptonote/external/miniupnpc/CMakeFiles/upnpc-static.dir/upnpreplyparse.c.o: cryptonote/external/miniupnpc/CMakeFiles/upnpc-static.dir/flags.make
 cryptonote/external/miniupnpc/CMakeFiles/upnpc-static.dir/upnpreplyparse.c.o: cryptonote/external/miniupnpc/upnpreplyparse.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object cryptonote/external/miniupnpc/CMakeFiles/upnpc-static.dir/upnpreplyparse.c.o"
-	cd /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/cryptonote/external/miniupnpc && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/upnpc-static.dir/upnpreplyparse.c.o   -c /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/cryptonote/external/miniupnpc/upnpreplyparse.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu1/dosh-gui/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object cryptonote/external/miniupnpc/CMakeFiles/upnpc-static.dir/upnpreplyparse.c.o"
+	cd /home/ubuntu1/dosh-gui/cryptonote/external/miniupnpc && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/upnpc-static.dir/upnpreplyparse.c.o   -c /home/ubuntu1/dosh-gui/cryptonote/external/miniupnpc/upnpreplyparse.c
 
 cryptonote/external/miniupnpc/CMakeFiles/upnpc-static.dir/upnpreplyparse.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/upnpc-static.dir/upnpreplyparse.c.i"
-	cd /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/cryptonote/external/miniupnpc && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/cryptonote/external/miniupnpc/upnpreplyparse.c > CMakeFiles/upnpc-static.dir/upnpreplyparse.c.i
+	cd /home/ubuntu1/dosh-gui/cryptonote/external/miniupnpc && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu1/dosh-gui/cryptonote/external/miniupnpc/upnpreplyparse.c > CMakeFiles/upnpc-static.dir/upnpreplyparse.c.i
 
 cryptonote/external/miniupnpc/CMakeFiles/upnpc-static.dir/upnpreplyparse.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/upnpc-static.dir/upnpreplyparse.c.s"
-	cd /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/cryptonote/external/miniupnpc && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/cryptonote/external/miniupnpc/upnpreplyparse.c -o CMakeFiles/upnpc-static.dir/upnpreplyparse.c.s
+	cd /home/ubuntu1/dosh-gui/cryptonote/external/miniupnpc && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu1/dosh-gui/cryptonote/external/miniupnpc/upnpreplyparse.c -o CMakeFiles/upnpc-static.dir/upnpreplyparse.c.s
 
 cryptonote/external/miniupnpc/CMakeFiles/upnpc-static.dir/upnpreplyparse.c.o.requires:
 
@@ -251,16 +251,16 @@ cryptonote/external/miniupnpc/CMakeFiles/upnpc-static.dir/upnpreplyparse.c.o.pro
 
 cryptonote/external/miniupnpc/CMakeFiles/upnpc-static.dir/upnperrors.c.o: cryptonote/external/miniupnpc/CMakeFiles/upnpc-static.dir/flags.make
 cryptonote/external/miniupnpc/CMakeFiles/upnpc-static.dir/upnperrors.c.o: cryptonote/external/miniupnpc/upnperrors.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object cryptonote/external/miniupnpc/CMakeFiles/upnpc-static.dir/upnperrors.c.o"
-	cd /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/cryptonote/external/miniupnpc && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/upnpc-static.dir/upnperrors.c.o   -c /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/cryptonote/external/miniupnpc/upnperrors.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu1/dosh-gui/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object cryptonote/external/miniupnpc/CMakeFiles/upnpc-static.dir/upnperrors.c.o"
+	cd /home/ubuntu1/dosh-gui/cryptonote/external/miniupnpc && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/upnpc-static.dir/upnperrors.c.o   -c /home/ubuntu1/dosh-gui/cryptonote/external/miniupnpc/upnperrors.c
 
 cryptonote/external/miniupnpc/CMakeFiles/upnpc-static.dir/upnperrors.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/upnpc-static.dir/upnperrors.c.i"
-	cd /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/cryptonote/external/miniupnpc && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/cryptonote/external/miniupnpc/upnperrors.c > CMakeFiles/upnpc-static.dir/upnperrors.c.i
+	cd /home/ubuntu1/dosh-gui/cryptonote/external/miniupnpc && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu1/dosh-gui/cryptonote/external/miniupnpc/upnperrors.c > CMakeFiles/upnpc-static.dir/upnperrors.c.i
 
 cryptonote/external/miniupnpc/CMakeFiles/upnpc-static.dir/upnperrors.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/upnpc-static.dir/upnperrors.c.s"
-	cd /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/cryptonote/external/miniupnpc && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/cryptonote/external/miniupnpc/upnperrors.c -o CMakeFiles/upnpc-static.dir/upnperrors.c.s
+	cd /home/ubuntu1/dosh-gui/cryptonote/external/miniupnpc && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu1/dosh-gui/cryptonote/external/miniupnpc/upnperrors.c -o CMakeFiles/upnpc-static.dir/upnperrors.c.s
 
 cryptonote/external/miniupnpc/CMakeFiles/upnpc-static.dir/upnperrors.c.o.requires:
 
@@ -275,16 +275,16 @@ cryptonote/external/miniupnpc/CMakeFiles/upnpc-static.dir/upnperrors.c.o.provide
 
 cryptonote/external/miniupnpc/CMakeFiles/upnpc-static.dir/connecthostport.c.o: cryptonote/external/miniupnpc/CMakeFiles/upnpc-static.dir/flags.make
 cryptonote/external/miniupnpc/CMakeFiles/upnpc-static.dir/connecthostport.c.o: cryptonote/external/miniupnpc/connecthostport.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object cryptonote/external/miniupnpc/CMakeFiles/upnpc-static.dir/connecthostport.c.o"
-	cd /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/cryptonote/external/miniupnpc && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/upnpc-static.dir/connecthostport.c.o   -c /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/cryptonote/external/miniupnpc/connecthostport.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu1/dosh-gui/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object cryptonote/external/miniupnpc/CMakeFiles/upnpc-static.dir/connecthostport.c.o"
+	cd /home/ubuntu1/dosh-gui/cryptonote/external/miniupnpc && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/upnpc-static.dir/connecthostport.c.o   -c /home/ubuntu1/dosh-gui/cryptonote/external/miniupnpc/connecthostport.c
 
 cryptonote/external/miniupnpc/CMakeFiles/upnpc-static.dir/connecthostport.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/upnpc-static.dir/connecthostport.c.i"
-	cd /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/cryptonote/external/miniupnpc && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/cryptonote/external/miniupnpc/connecthostport.c > CMakeFiles/upnpc-static.dir/connecthostport.c.i
+	cd /home/ubuntu1/dosh-gui/cryptonote/external/miniupnpc && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu1/dosh-gui/cryptonote/external/miniupnpc/connecthostport.c > CMakeFiles/upnpc-static.dir/connecthostport.c.i
 
 cryptonote/external/miniupnpc/CMakeFiles/upnpc-static.dir/connecthostport.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/upnpc-static.dir/connecthostport.c.s"
-	cd /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/cryptonote/external/miniupnpc && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/cryptonote/external/miniupnpc/connecthostport.c -o CMakeFiles/upnpc-static.dir/connecthostport.c.s
+	cd /home/ubuntu1/dosh-gui/cryptonote/external/miniupnpc && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu1/dosh-gui/cryptonote/external/miniupnpc/connecthostport.c -o CMakeFiles/upnpc-static.dir/connecthostport.c.s
 
 cryptonote/external/miniupnpc/CMakeFiles/upnpc-static.dir/connecthostport.c.o.requires:
 
@@ -299,16 +299,16 @@ cryptonote/external/miniupnpc/CMakeFiles/upnpc-static.dir/connecthostport.c.o.pr
 
 cryptonote/external/miniupnpc/CMakeFiles/upnpc-static.dir/portlistingparse.c.o: cryptonote/external/miniupnpc/CMakeFiles/upnpc-static.dir/flags.make
 cryptonote/external/miniupnpc/CMakeFiles/upnpc-static.dir/portlistingparse.c.o: cryptonote/external/miniupnpc/portlistingparse.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object cryptonote/external/miniupnpc/CMakeFiles/upnpc-static.dir/portlistingparse.c.o"
-	cd /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/cryptonote/external/miniupnpc && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/upnpc-static.dir/portlistingparse.c.o   -c /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/cryptonote/external/miniupnpc/portlistingparse.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu1/dosh-gui/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object cryptonote/external/miniupnpc/CMakeFiles/upnpc-static.dir/portlistingparse.c.o"
+	cd /home/ubuntu1/dosh-gui/cryptonote/external/miniupnpc && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/upnpc-static.dir/portlistingparse.c.o   -c /home/ubuntu1/dosh-gui/cryptonote/external/miniupnpc/portlistingparse.c
 
 cryptonote/external/miniupnpc/CMakeFiles/upnpc-static.dir/portlistingparse.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/upnpc-static.dir/portlistingparse.c.i"
-	cd /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/cryptonote/external/miniupnpc && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/cryptonote/external/miniupnpc/portlistingparse.c > CMakeFiles/upnpc-static.dir/portlistingparse.c.i
+	cd /home/ubuntu1/dosh-gui/cryptonote/external/miniupnpc && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu1/dosh-gui/cryptonote/external/miniupnpc/portlistingparse.c > CMakeFiles/upnpc-static.dir/portlistingparse.c.i
 
 cryptonote/external/miniupnpc/CMakeFiles/upnpc-static.dir/portlistingparse.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/upnpc-static.dir/portlistingparse.c.s"
-	cd /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/cryptonote/external/miniupnpc && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/cryptonote/external/miniupnpc/portlistingparse.c -o CMakeFiles/upnpc-static.dir/portlistingparse.c.s
+	cd /home/ubuntu1/dosh-gui/cryptonote/external/miniupnpc && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu1/dosh-gui/cryptonote/external/miniupnpc/portlistingparse.c -o CMakeFiles/upnpc-static.dir/portlistingparse.c.s
 
 cryptonote/external/miniupnpc/CMakeFiles/upnpc-static.dir/portlistingparse.c.o.requires:
 
@@ -323,16 +323,16 @@ cryptonote/external/miniupnpc/CMakeFiles/upnpc-static.dir/portlistingparse.c.o.p
 
 cryptonote/external/miniupnpc/CMakeFiles/upnpc-static.dir/receivedata.c.o: cryptonote/external/miniupnpc/CMakeFiles/upnpc-static.dir/flags.make
 cryptonote/external/miniupnpc/CMakeFiles/upnpc-static.dir/receivedata.c.o: cryptonote/external/miniupnpc/receivedata.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object cryptonote/external/miniupnpc/CMakeFiles/upnpc-static.dir/receivedata.c.o"
-	cd /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/cryptonote/external/miniupnpc && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/upnpc-static.dir/receivedata.c.o   -c /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/cryptonote/external/miniupnpc/receivedata.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu1/dosh-gui/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object cryptonote/external/miniupnpc/CMakeFiles/upnpc-static.dir/receivedata.c.o"
+	cd /home/ubuntu1/dosh-gui/cryptonote/external/miniupnpc && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/upnpc-static.dir/receivedata.c.o   -c /home/ubuntu1/dosh-gui/cryptonote/external/miniupnpc/receivedata.c
 
 cryptonote/external/miniupnpc/CMakeFiles/upnpc-static.dir/receivedata.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/upnpc-static.dir/receivedata.c.i"
-	cd /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/cryptonote/external/miniupnpc && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/cryptonote/external/miniupnpc/receivedata.c > CMakeFiles/upnpc-static.dir/receivedata.c.i
+	cd /home/ubuntu1/dosh-gui/cryptonote/external/miniupnpc && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu1/dosh-gui/cryptonote/external/miniupnpc/receivedata.c > CMakeFiles/upnpc-static.dir/receivedata.c.i
 
 cryptonote/external/miniupnpc/CMakeFiles/upnpc-static.dir/receivedata.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/upnpc-static.dir/receivedata.c.s"
-	cd /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/cryptonote/external/miniupnpc && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/cryptonote/external/miniupnpc/receivedata.c -o CMakeFiles/upnpc-static.dir/receivedata.c.s
+	cd /home/ubuntu1/dosh-gui/cryptonote/external/miniupnpc && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu1/dosh-gui/cryptonote/external/miniupnpc/receivedata.c -o CMakeFiles/upnpc-static.dir/receivedata.c.s
 
 cryptonote/external/miniupnpc/CMakeFiles/upnpc-static.dir/receivedata.c.o.requires:
 
@@ -347,16 +347,16 @@ cryptonote/external/miniupnpc/CMakeFiles/upnpc-static.dir/receivedata.c.o.provid
 
 cryptonote/external/miniupnpc/CMakeFiles/upnpc-static.dir/minissdpc.c.o: cryptonote/external/miniupnpc/CMakeFiles/upnpc-static.dir/flags.make
 cryptonote/external/miniupnpc/CMakeFiles/upnpc-static.dir/minissdpc.c.o: cryptonote/external/miniupnpc/minissdpc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object cryptonote/external/miniupnpc/CMakeFiles/upnpc-static.dir/minissdpc.c.o"
-	cd /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/cryptonote/external/miniupnpc && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/upnpc-static.dir/minissdpc.c.o   -c /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/cryptonote/external/miniupnpc/minissdpc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu1/dosh-gui/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object cryptonote/external/miniupnpc/CMakeFiles/upnpc-static.dir/minissdpc.c.o"
+	cd /home/ubuntu1/dosh-gui/cryptonote/external/miniupnpc && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/upnpc-static.dir/minissdpc.c.o   -c /home/ubuntu1/dosh-gui/cryptonote/external/miniupnpc/minissdpc.c
 
 cryptonote/external/miniupnpc/CMakeFiles/upnpc-static.dir/minissdpc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/upnpc-static.dir/minissdpc.c.i"
-	cd /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/cryptonote/external/miniupnpc && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/cryptonote/external/miniupnpc/minissdpc.c > CMakeFiles/upnpc-static.dir/minissdpc.c.i
+	cd /home/ubuntu1/dosh-gui/cryptonote/external/miniupnpc && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu1/dosh-gui/cryptonote/external/miniupnpc/minissdpc.c > CMakeFiles/upnpc-static.dir/minissdpc.c.i
 
 cryptonote/external/miniupnpc/CMakeFiles/upnpc-static.dir/minissdpc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/upnpc-static.dir/minissdpc.c.s"
-	cd /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/cryptonote/external/miniupnpc && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/cryptonote/external/miniupnpc/minissdpc.c -o CMakeFiles/upnpc-static.dir/minissdpc.c.s
+	cd /home/ubuntu1/dosh-gui/cryptonote/external/miniupnpc && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu1/dosh-gui/cryptonote/external/miniupnpc/minissdpc.c -o CMakeFiles/upnpc-static.dir/minissdpc.c.s
 
 cryptonote/external/miniupnpc/CMakeFiles/upnpc-static.dir/minissdpc.c.o.requires:
 
@@ -371,16 +371,16 @@ cryptonote/external/miniupnpc/CMakeFiles/upnpc-static.dir/minissdpc.c.o.provides
 
 cryptonote/external/miniupnpc/CMakeFiles/upnpc-static.dir/upnpc-static_autogen/mocs_compilation.cpp.o: cryptonote/external/miniupnpc/CMakeFiles/upnpc-static.dir/flags.make
 cryptonote/external/miniupnpc/CMakeFiles/upnpc-static.dir/upnpc-static_autogen/mocs_compilation.cpp.o: cryptonote/external/miniupnpc/upnpc-static_autogen/mocs_compilation.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object cryptonote/external/miniupnpc/CMakeFiles/upnpc-static.dir/upnpc-static_autogen/mocs_compilation.cpp.o"
-	cd /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/cryptonote/external/miniupnpc && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/upnpc-static.dir/upnpc-static_autogen/mocs_compilation.cpp.o -c /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/cryptonote/external/miniupnpc/upnpc-static_autogen/mocs_compilation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu1/dosh-gui/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object cryptonote/external/miniupnpc/CMakeFiles/upnpc-static.dir/upnpc-static_autogen/mocs_compilation.cpp.o"
+	cd /home/ubuntu1/dosh-gui/cryptonote/external/miniupnpc && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/upnpc-static.dir/upnpc-static_autogen/mocs_compilation.cpp.o -c /home/ubuntu1/dosh-gui/cryptonote/external/miniupnpc/upnpc-static_autogen/mocs_compilation.cpp
 
 cryptonote/external/miniupnpc/CMakeFiles/upnpc-static.dir/upnpc-static_autogen/mocs_compilation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/upnpc-static.dir/upnpc-static_autogen/mocs_compilation.cpp.i"
-	cd /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/cryptonote/external/miniupnpc && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/cryptonote/external/miniupnpc/upnpc-static_autogen/mocs_compilation.cpp > CMakeFiles/upnpc-static.dir/upnpc-static_autogen/mocs_compilation.cpp.i
+	cd /home/ubuntu1/dosh-gui/cryptonote/external/miniupnpc && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu1/dosh-gui/cryptonote/external/miniupnpc/upnpc-static_autogen/mocs_compilation.cpp > CMakeFiles/upnpc-static.dir/upnpc-static_autogen/mocs_compilation.cpp.i
 
 cryptonote/external/miniupnpc/CMakeFiles/upnpc-static.dir/upnpc-static_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/upnpc-static.dir/upnpc-static_autogen/mocs_compilation.cpp.s"
-	cd /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/cryptonote/external/miniupnpc && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/cryptonote/external/miniupnpc/upnpc-static_autogen/mocs_compilation.cpp -o CMakeFiles/upnpc-static.dir/upnpc-static_autogen/mocs_compilation.cpp.s
+	cd /home/ubuntu1/dosh-gui/cryptonote/external/miniupnpc && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu1/dosh-gui/cryptonote/external/miniupnpc/upnpc-static_autogen/mocs_compilation.cpp -o CMakeFiles/upnpc-static.dir/upnpc-static_autogen/mocs_compilation.cpp.s
 
 cryptonote/external/miniupnpc/CMakeFiles/upnpc-static.dir/upnpc-static_autogen/mocs_compilation.cpp.o.requires:
 
@@ -429,9 +429,9 @@ cryptonote/external/miniupnpc/libminiupnpc.a: cryptonote/external/miniupnpc/CMak
 cryptonote/external/miniupnpc/libminiupnpc.a: cryptonote/external/miniupnpc/CMakeFiles/upnpc-static.dir/upnpc-static_autogen/mocs_compilation.cpp.o
 cryptonote/external/miniupnpc/libminiupnpc.a: cryptonote/external/miniupnpc/CMakeFiles/upnpc-static.dir/build.make
 cryptonote/external/miniupnpc/libminiupnpc.a: cryptonote/external/miniupnpc/CMakeFiles/upnpc-static.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Linking CXX static library libminiupnpc.a"
-	cd /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/cryptonote/external/miniupnpc && $(CMAKE_COMMAND) -P CMakeFiles/upnpc-static.dir/cmake_clean_target.cmake
-	cd /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/cryptonote/external/miniupnpc && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/upnpc-static.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ubuntu1/dosh-gui/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Linking CXX static library libminiupnpc.a"
+	cd /home/ubuntu1/dosh-gui/cryptonote/external/miniupnpc && $(CMAKE_COMMAND) -P CMakeFiles/upnpc-static.dir/cmake_clean_target.cmake
+	cd /home/ubuntu1/dosh-gui/cryptonote/external/miniupnpc && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/upnpc-static.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 cryptonote/external/miniupnpc/CMakeFiles/upnpc-static.dir/build: cryptonote/external/miniupnpc/libminiupnpc.a
@@ -456,10 +456,10 @@ cryptonote/external/miniupnpc/CMakeFiles/upnpc-static.dir/requires: cryptonote/e
 .PHONY : cryptonote/external/miniupnpc/CMakeFiles/upnpc-static.dir/requires
 
 cryptonote/external/miniupnpc/CMakeFiles/upnpc-static.dir/clean:
-	cd /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/cryptonote/external/miniupnpc && $(CMAKE_COMMAND) -P CMakeFiles/upnpc-static.dir/cmake_clean.cmake
+	cd /home/ubuntu1/dosh-gui/cryptonote/external/miniupnpc && $(CMAKE_COMMAND) -P CMakeFiles/upnpc-static.dir/cmake_clean.cmake
 .PHONY : cryptonote/external/miniupnpc/CMakeFiles/upnpc-static.dir/clean
 
 cryptonote/external/miniupnpc/CMakeFiles/upnpc-static.dir/depend:
-	cd /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/cryptonote/external/miniupnpc /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/cryptonote/external/miniupnpc /home/ubuntu/DOSH_FINAL_GUI_VERSION_OCT_2018/dosh-gui/cryptonote/external/miniupnpc/CMakeFiles/upnpc-static.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ubuntu1/dosh-gui && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu1/dosh-gui /home/ubuntu1/dosh-gui/cryptonote/external/miniupnpc /home/ubuntu1/dosh-gui /home/ubuntu1/dosh-gui/cryptonote/external/miniupnpc /home/ubuntu1/dosh-gui/cryptonote/external/miniupnpc/CMakeFiles/upnpc-static.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : cryptonote/external/miniupnpc/CMakeFiles/upnpc-static.dir/depend
 
